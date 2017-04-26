@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d94f9dfb-6318-4943-95f2-26ca83b3b1ce" name="Diego@DIEGO-PC 2012-11-19 01:10:54" runUser="Diego-PC\Diego" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef2db5f0-3f45-4aad-a578-8bde204c9147">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Diego_DIEGO-PC 2012-11-19 01_10_54">
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Release\Dominio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Release\Negocio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\bin\Release\Repositorio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Seguridad\bin\Release\Seguridad.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-19T01:10:54.7217697-03:00" queuing="2012-11-19T01:10:54.8197753-03:00" start="2012-11-19T01:10:54.8527772-03:00" finish="2012-11-19T01:10:57.0169010-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="cargarMovimientosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="4f3a2e54-c06b-cfc2-386b-24b648fee82c">
+      <Execution id="8e5316a6-9237-490f-b474-3673746b5415" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cargarMovimientosTest" />
+    </UnitTest>
+    <UnitTest name="grabarMovimientosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="7ef8ab41-162c-76bc-02f7-a575f043f7e4">
+      <Execution id="ae9f5a6b-5fb9-414a-8cdc-520df7eab03b" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="grabarMovimientosTest" />
+    </UnitTest>
+    <UnitTest name="actualizarMovimientosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="57822e73-41f0-97dd-bf29-4b1fd4ed053c">
+      <Execution id="07a7a059-d206-4c13-8756-e6ee5e20f9c0" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="actualizarMovimientosTest" />
+    </UnitTest>
+    <UnitTest name="cargarMovimientosConRestriccionesTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="aeb09f8f-b144-d846-cb07-87151db0c5db">
+      <Execution id="cd92a13a-cefa-49a9-be1d-a10224c36f69" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cargarMovimientosConRestriccionesTest" />
+    </UnitTest>
+    <UnitTest name="borrarMovimientosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="c9059140-bd68-daef-e19b-ffc08869ca24">
+      <Execution id="842f9e4c-f82f-4959-98e0-921c45a75eb3" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="borrarMovimientosTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4f3a2e54-c06b-cfc2-386b-24b648fee82c" executionId="8e5316a6-9237-490f-b474-3673746b5415" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57822e73-41f0-97dd-bf29-4b1fd4ed053c" executionId="07a7a059-d206-4c13-8756-e6ee5e20f9c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ef8ab41-162c-76bc-02f7-a575f043f7e4" executionId="ae9f5a6b-5fb9-414a-8cdc-520df7eab03b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aeb09f8f-b144-d846-cb07-87151db0c5db" executionId="cd92a13a-cefa-49a9-be1d-a10224c36f69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9059140-bd68-daef-e19b-ffc08869ca24" executionId="842f9e4c-f82f-4959-98e0-921c45a75eb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8e5316a6-9237-490f-b474-3673746b5415" testId="4f3a2e54-c06b-cfc2-386b-24b648fee82c" testName="cargarMovimientosTest" computerName="DIEGO-PC" duration="00:00:00.1212188" startTime="2012-11-19T01:10:54.8677781-03:00" endTime="2012-11-19T01:10:55.3758071-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e5316a6-9237-490f-b474-3673746b5415">
+      <Output>
+        <StdOut>Save/Update: select * from MovimientosStock
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.MovimientoStockTDGTest.cargarMovimientosTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Tests.MovimientoStockTDGTest.cargarMovimientosTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestTDG\MovimientoStockTDGTest.vb:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07a7a059-d206-4c13-8756-e6ee5e20f9c0" testId="57822e73-41f0-97dd-bf29-4b1fd4ed053c" testName="actualizarMovimientosTest" computerName="DIEGO-PC" duration="00:00:00.0189537" startTime="2012-11-19T01:10:55.3848077-03:00" endTime="2012-11-19T01:10:55.4188096-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07a7a059-d206-4c13-8756-e6ee5e20f9c0">
+      <Output>
+        <StdOut>Save/Update: SELECT  ISNULL(MAX(nro_movimiento + 1),1) from MovimientosStock WHERE cod_insumo=1
+Save/Update: INSERT INTO MovimientosStock (nro_movimiento, cod_insumo, tipo, fecha, cantidad) VALUES (3 , 1 , 1 ,  CAST('11/11/2012 00:00:00.000'  AS DateTime), 15); 
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  AND  MovimientosStock.nro_movimiento=3  
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.MovimientoStockTDGTest.actualizarMovimientosTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.TableDataGateway.buscarUnico(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 25
+   at Tests.MovimientoStockTDGTest.actualizarMovimientosTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestTDG\MovimientoStockTDGTest.vb:line 131
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ae9f5a6b-5fb9-414a-8cdc-520df7eab03b" testId="7ef8ab41-162c-76bc-02f7-a575f043f7e4" testName="grabarMovimientosTest" computerName="DIEGO-PC" duration="00:00:00.0067720" startTime="2012-11-19T01:10:55.4258100-03:00" endTime="2012-11-19T01:10:55.4378107-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae9f5a6b-5fb9-414a-8cdc-520df7eab03b">
+      <Output>
+        <StdOut>Save/Update: SELECT  ISNULL(MAX(nro_movimiento + 1),1) from MovimientosStock WHERE cod_insumo=1
+Save/Update: INSERT INTO MovimientosStock (nro_movimiento, cod_insumo, tipo, fecha, cantidad) VALUES (3 , 1 , 1 ,  CAST('11/11/2012 00:00:00.000'  AS DateTime), 15); 
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  AND  MovimientosStock.nro_movimiento=3  
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.MovimientoStockTDGTest.grabarMovimientosTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.TableDataGateway.buscarUnico(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 25
+   at Tests.MovimientoStockTDGTest.grabarMovimientosTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestTDG\MovimientoStockTDGTest.vb:line 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd92a13a-cefa-49a9-be1d-a10224c36f69" testId="aeb09f8f-b144-d846-cb07-87151db0c5db" testName="cargarMovimientosConRestriccionesTest" computerName="DIEGO-PC" duration="00:00:00.0110726" startTime="2012-11-19T01:10:55.4418109-03:00" endTime="2012-11-19T01:10:55.4618121-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd92a13a-cefa-49a9-be1d-a10224c36f69">
+      <Output>
+        <StdOut>Save/Update: select * from MovimientosStock WHERE  MovimientosStock.fecha= CAST('10/10/2012 00:00:00.000'  AS DateTime) AND  MovimientosStock.cod_insumo=1  AND  MovimientosStock.cantidad=10 AND  MovimientosStock.nro_movimiento=1  
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.MovimientoStockTDGTest.cargarMovimientosConRestriccionesTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Tests.MovimientoStockTDGTest.cargarMovimientosConRestriccionesTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestTDG\MovimientoStockTDGTest.vb:line 90
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="842f9e4c-f82f-4959-98e0-921c45a75eb3" testId="c9059140-bd68-daef-e19b-ffc08869ca24" testName="borrarMovimientosTest" computerName="DIEGO-PC" duration="00:00:00.0073145" startTime="2012-11-19T01:10:55.4718126-03:00" endTime="2012-11-19T01:10:55.4878136-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="842f9e4c-f82f-4959-98e0-921c45a75eb3">
+      <Output>
+        <StdOut>Save/Update: SELECT  ISNULL(MAX(nro_movimiento + 1),1) from MovimientosStock WHERE cod_insumo=1
+Save/Update: INSERT INTO MovimientosStock (nro_movimiento, cod_insumo, tipo, fecha, cantidad) VALUES (3 , 1 , 1 ,  CAST('11/11/2012 00:00:00.000'  AS DateTime), 15); 
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  AND  MovimientosStock.nro_movimiento=3  
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.MovimientoStockTDGTest.borrarMovimientosTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.TableDataGateway.buscarUnico(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 25
+   at Tests.MovimientoStockTDGTest.borrarMovimientosTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestTDG\MovimientoStockTDGTest.vb:line 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

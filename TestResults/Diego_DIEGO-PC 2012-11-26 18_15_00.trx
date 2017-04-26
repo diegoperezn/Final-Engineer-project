@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="50b181a8-40d7-4b7d-809e-aade56b3e557" name="Diego@DIEGO-PC 2012-11-26 18:15:00" runUser="Diego-PC\Diego" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef2db5f0-3f45-4aad-a578-8bde204c9147">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Diego_DIEGO-PC 2012-11-26 18_15_00">
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Seguridad\bin\Debug\Seguridad.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\bin\Debug\Repositorio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Negocio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Debug\Dominio.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-26T18:15:00.1489346-03:00" queuing="2012-11-26T18:15:00.1859367-03:00" start="2012-11-26T18:15:00.2019376-03:00" finish="2012-11-26T18:15:00.7999718-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="obtenerIdsArticulosFrecuentesTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\debug\tests.dll" id="1f18c315-e299-cbd9-ed3a-225fc06b347a">
+      <Execution id="b1673d11-cc1f-4a8f-ad0a-9fb033013465" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ArticuloTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="obtenerIdsArticulosFrecuentesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1f18c315-e299-cbd9-ed3a-225fc06b347a" executionId="b1673d11-cc1f-4a8f-ad0a-9fb033013465" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b1673d11-cc1f-4a8f-ad0a-9fb033013465" testId="1f18c315-e299-cbd9-ed3a-225fc06b347a" testName="obtenerIdsArticulosFrecuentesTest" computerName="DIEGO-PC" duration="00:00:00.1151174" startTime="2012-11-26T18:15:00.2159384-03:00" endTime="2012-11-26T18:15:00.7719702-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1673d11-cc1f-4a8f-ad0a-9fb033013465">
+      <Output>
+        <StdOut>Save/Update: select top 3 pr.cod_articulo as idArticulo, SUM(pr.cantidad) as cantidad  from produccion pr, Pedido pe  where(pe.cod_pedido = pr.cod_pedido)  AND pe.id_cliente = 1 group by pr.cod_articulo  order by cantidad desc
+Save/Update: select top 3 pr.cod_articulo as idArticulo, SUM(pr.cantidad) as cantidad  from produccion pr, Pedido pe  where(pe.cod_pedido = pr.cod_pedido)  AND pe.id_cliente = 2 group by pr.cod_articulo  order by cantidad desc
+Save/Update: DELETE Articulos WHERE cod_articulo=4</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

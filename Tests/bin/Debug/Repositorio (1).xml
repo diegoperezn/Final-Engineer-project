@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Repositorio
+</name>
+</assembly>
+<members>
+<member name="P:Repositorio.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Repositorio.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Repositorio.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Repositorio.PrendaRepositorio.actualizarTipoPrenda(Dominio.TipoPrenda)">
+	<param name="prenda"></param>
+</member><member name="M:Repositorio.PrendaRepositorio.grabarPrenda(Dominio.TipoPrenda)">
+	<param name="prenda"></param>
+</member><member name="M:Repositorio.DataAccesObject.ejecutarConsulta(System.String)">
+	<param name="consulta"></param>
+</member><member name="M:Repositorio.DataAccesObject.saveOrUpdate(System.String)">
+	<param name="consulta"></param>
+</member><member name="M:Repositorio.Repositorio.MaquinaRepositorio.actualizarMaquina(Dominio.Maquina)">
+	<param name="maquina"></param>
+</member><member name="M:Repositorio.Repositorio.MaquinaRepositorio.CargarMaquinasAptas(Dominio.TipoPrenda,Dominio.Diseño)">
+	<param name="Premda"></param>
+	<param name="Diseño"></param>
+</member><member name="M:Repositorio.Repositorio.MaquinaRepositorio.GrabarMaquina(Dominio.Maquina)">
+	<param name="maquina"></param>
+</member><member name="M:Repositorio.UsuarioRepositorio.actualizarUsuario(Dominio.Usuario)">
+	<param name="usuario"></param>
+</member><member name="M:Repositorio.UsuarioRepositorio.grabarUsuario(Dominio.Usuario)">
+	<param name="usuario"></param>
+</member><member name="M:Repositorio.ComboRepositorio.combos(Dominio.combo)">
+	<param name="combo"></param>
+</member><member name="M:Repositorio.AgendaRepositorio.actualizarAgenda(Dominio.Pedido)">
+	<param name="pedidos"></param>
+</member><member name="M:Repositorio.AgendaRepositorio.actualizarTrabajo(Dominio.Produccion)">
+	<param name="produccion"></param>
+</member><member name="M:Repositorio.AgendaRepositorio.ActualzarPedido(Dominio.Pedido)">
+	<param name="pedido"></param>
+</member><member name="M:Repositorio.AgendaRepositorio.BuscarPedido(Dominio.Maquina,System.DateTime,System.DateTime,Dominio.Diseño,Dominio.Cliente,Dominio.TipoPrenda,Dominio.EstadoPedido)">
+	<param name="maquina"></param>
+	<param name="fechaHasta"></param>
+	<param name="fechaDesde"></param>
+	<param name="Diseño"></param>
+	<param name="Cliente"></param>
+	<param name="tipoPrenda"></param>
+	<param name="Estado"></param>
+</member><member name="M:Repositorio.AgendaRepositorio.buscarTrabajos(Dominio.Diseño)">
+	<param name="diseño"></param>
+</member><member name="M:Repositorio.AgendaRepositorio.cargarAgenda(Dominio.Maquina,System.DateTime,System.DateTime,Dominio.Diseño,Dominio.Cliente,Dominio.TipoPrenda,Dominio.EstadoPedido)">
+	<param name="maquina"></param>
+	<param name="fechaHasta"></param>
+	<param name="fechaDesde"></param>
+	<param name="Diseño"></param>
+	<param name="Cliente"></param>
+	<param name="tipoPrenda"></param>
+	<param name="Estado"></param>
+</member><member name="M:Repositorio.AgendaRepositorio.GrabarPedido(Dominio.Pedido)">
+	<param name="pedido"></param>
+</member><member name="M:Repositorio.DiseñoRepositorio.ActualizarFichaDiseño(Dominio.Diseño)">
+	<param name="diseño"></param>
+</member><member name="M:Repositorio.DiseñoRepositorio.BuscarDiseños(System.String,Dominio.EstadoDiseños,Dominio.Cliente)">
+	<param name="Nombre"></param>
+	<param name="Estado"></param>
+	<param name="Cliente"></param>
+</member><member name="M:Repositorio.DiseñoRepositorio.BuscarImagen(Dominio.Diseño)">
+	<param name="diseño"></param>
+</member><member name="M:Repositorio.DiseñoRepositorio.GrabarDiseño(Dominio.Diseño)">
+	<param name="diseño"></param>
+</member><member name="M:Repositorio.DiseñoRepositorio.ListarDiseños(Dominio.Cliente)">
+	<param name="cliente"></param>
+</member><member name="M:Repositorio.MaterialesRepositorio.registrarCompra(Dominio.Insumo)">
+	<param name="stock"></param>
+</member><member name="M:Repositorio.FinanzasRepositorio.actualizarFactura(Dominio.Documento)">
+	<param name="factura"></param>
+</member><member name="M:Repositorio.FinanzasRepositorio.actualizarMovimiento(Dominio.MovimientosCuenta)">
+	<param name="movimiento"></param>
+</member><member name="M:Repositorio.FinanzasRepositorio.listarFacturas(Dominio.TipoPrenda,Dominio.Diseño,System.Int32,System.Int32,System.DateTime,System.DateTime,Dominio.Cliente)">
+	<param name="prenda"></param>
+	<param name="diseño"></param>
+	<param name="montoHasta"></param>
+	<param name="montodesde"></param>
+	<param name="fechaHasta"></param>
+	<param name="fechaDesde"></param>
+	<param name="cliente"></param>
+</member><member name="M:Repositorio.FinanzasRepositorio.listarMovimientos(Dominio.Cuenta,Dominio.TipoMovimiento,Dominio.TipoPrenda,Dominio.Diseño,System.Int32,System.Int32,System.DateTime,System.DateTime)">
+	<param name="medio"></param>
+	<param name="TipoMovimiento"></param>
+	<param name="prenda"></param>
+	<param name="diseño"></param>
+	<param name="montoHasta"></param>
+	<param name="montodesde"></param>
+	<param name="fechaHasta"></param>
+	<param name="fechaDesde"></param>
+</member><member name="M:Repositorio.FinanzasRepositorio.registrarMovimiento(Dominio.MovimientosCuenta)">
+	<param name="movimiento"></param>
+</member>
+</members>
+</doc>

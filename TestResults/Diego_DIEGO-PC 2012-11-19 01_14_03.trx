@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fd1aaaa1-60ea-430b-ac03-0249cf3b485b" name="Diego@DIEGO-PC 2012-11-19 01:14:03" runUser="Diego-PC\Diego" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef2db5f0-3f45-4aad-a578-8bde204c9147">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Diego_DIEGO-PC 2012-11-19 01_14_03">
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Release\Dominio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Release\Negocio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\bin\Release\Repositorio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Seguridad\bin\Release\Seguridad.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-19T01:14:03.1605478-03:00" queuing="2012-11-19T01:14:03.2295518-03:00" start="2012-11-19T01:14:03.2545532-03:00" finish="2012-11-19T01:14:03.8985900-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="cargarMovimientosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="4f3a2e54-c06b-cfc2-386b-24b648fee82c">
+      <Execution id="1fc4570b-5183-4735-8b0e-82d18cf16f98" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cargarMovimientosTest" />
+    </UnitTest>
+    <UnitTest name="grabarMovimientosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="7ef8ab41-162c-76bc-02f7-a575f043f7e4">
+      <Execution id="06573442-6d1f-44cf-9da2-3fdc3701e145" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="grabarMovimientosTest" />
+    </UnitTest>
+    <UnitTest name="actualizarMovimientosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="57822e73-41f0-97dd-bf29-4b1fd4ed053c">
+      <Execution id="d11a7d46-37fc-48d7-91c8-423cb9fb9bca" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="actualizarMovimientosTest" />
+    </UnitTest>
+    <UnitTest name="cargarMovimientosConRestriccionesTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="aeb09f8f-b144-d846-cb07-87151db0c5db">
+      <Execution id="67d33394-94c0-4c8d-8784-a27cee2dc490" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cargarMovimientosConRestriccionesTest" />
+    </UnitTest>
+    <UnitTest name="borrarMovimientosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="c9059140-bd68-daef-e19b-ffc08869ca24">
+      <Execution id="6fefacb3-2e75-4b6c-a558-c6b76869163c" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="borrarMovimientosTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4f3a2e54-c06b-cfc2-386b-24b648fee82c" executionId="1fc4570b-5183-4735-8b0e-82d18cf16f98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57822e73-41f0-97dd-bf29-4b1fd4ed053c" executionId="d11a7d46-37fc-48d7-91c8-423cb9fb9bca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ef8ab41-162c-76bc-02f7-a575f043f7e4" executionId="06573442-6d1f-44cf-9da2-3fdc3701e145" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aeb09f8f-b144-d846-cb07-87151db0c5db" executionId="67d33394-94c0-4c8d-8784-a27cee2dc490" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9059140-bd68-daef-e19b-ffc08869ca24" executionId="6fefacb3-2e75-4b6c-a558-c6b76869163c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1fc4570b-5183-4735-8b0e-82d18cf16f98" testId="4f3a2e54-c06b-cfc2-386b-24b648fee82c" testName="cargarMovimientosTest" computerName="DIEGO-PC" duration="00:00:00.1084220" startTime="2012-11-19T01:14:03.2775545-03:00" endTime="2012-11-19T01:14:03.7495815-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fc4570b-5183-4735-8b0e-82d18cf16f98">
+      <Output>
+        <StdOut>Save/Update: select * from MovimientosStock
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d11a7d46-37fc-48d7-91c8-423cb9fb9bca" testId="57822e73-41f0-97dd-bf29-4b1fd4ed053c" testName="actualizarMovimientosTest" computerName="DIEGO-PC" duration="00:00:00.0266071" startTime="2012-11-19T01:14:03.7765831-03:00" endTime="2012-11-19T01:14:03.8175854-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d11a7d46-37fc-48d7-91c8-423cb9fb9bca">
+      <Output>
+        <StdOut>Save/Update: SELECT  ISNULL(MAX(nro_movimiento + 1),1) from MovimientosStock WHERE cod_insumo=1
+Save/Update: INSERT INTO MovimientosStock (nro_movimiento, cod_insumo, tipo, fecha, cantidad) VALUES (3 , 1 , 1 ,  CAST('11/11/2012 00:00:00.000'  AS DateTime), 15); 
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  AND  MovimientosStock.nro_movimiento=3  
+Save/Update: UPDATE MovimientosStock SET tipo=1 , fecha= CAST('11/11/2012 00:00:00.000'  AS DateTime), cantidad=18.3 WHERE nro_movimiento=3  AND cod_insumo=1  ; 
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  AND  MovimientosStock.nro_movimiento=3  
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="06573442-6d1f-44cf-9da2-3fdc3701e145" testId="7ef8ab41-162c-76bc-02f7-a575f043f7e4" testName="grabarMovimientosTest" computerName="DIEGO-PC" duration="00:00:00.0049061" startTime="2012-11-19T01:14:03.8215856-03:00" endTime="2012-11-19T01:14:03.8325863-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06573442-6d1f-44cf-9da2-3fdc3701e145">
+      <Output>
+        <StdOut>Save/Update: SELECT  ISNULL(MAX(nro_movimiento + 1),1) from MovimientosStock WHERE cod_insumo=1
+Save/Update: INSERT INTO MovimientosStock (nro_movimiento, cod_insumo, tipo, fecha, cantidad) VALUES (3 , 1 , 1 ,  CAST('11/11/2012 00:00:00.000'  AS DateTime), 15); 
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  AND  MovimientosStock.nro_movimiento=3  
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67d33394-94c0-4c8d-8784-a27cee2dc490" testId="aeb09f8f-b144-d846-cb07-87151db0c5db" testName="cargarMovimientosConRestriccionesTest" computerName="DIEGO-PC" duration="00:00:00.0056103" startTime="2012-11-19T01:14:03.8375865-03:00" endTime="2012-11-19T01:14:03.8495872-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67d33394-94c0-4c8d-8784-a27cee2dc490">
+      <Output>
+        <StdOut>Save/Update: select * from MovimientosStock WHERE  MovimientosStock.fecha= CAST('10/10/2012 00:00:00.000'  AS DateTime) AND  MovimientosStock.cod_insumo=1  AND  MovimientosStock.cantidad=10 AND  MovimientosStock.nro_movimiento=1  
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6fefacb3-2e75-4b6c-a558-c6b76869163c" testId="c9059140-bd68-daef-e19b-ffc08869ca24" testName="borrarMovimientosTest" computerName="DIEGO-PC" duration="00:00:00.0055673" startTime="2012-11-19T01:14:03.8545875-03:00" endTime="2012-11-19T01:14:03.8655881-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6fefacb3-2e75-4b6c-a558-c6b76869163c">
+      <Output>
+        <StdOut>Save/Update: SELECT  ISNULL(MAX(nro_movimiento + 1),1) from MovimientosStock WHERE cod_insumo=1
+Save/Update: INSERT INTO MovimientosStock (nro_movimiento, cod_insumo, tipo, fecha, cantidad) VALUES (3 , 1 , 1 ,  CAST('11/11/2012 00:00:00.000'  AS DateTime), 15); 
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  AND  MovimientosStock.nro_movimiento=3  
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  AND  MovimientosStock.nro_movimiento=3  
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

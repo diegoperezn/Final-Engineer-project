@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f8dbebd1-a83f-450f-9d24-fe2f699a773b" name="Diego@DIEGO-PC 2012-11-26 18:21:45" runUser="Diego-PC\Diego" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef2db5f0-3f45-4aad-a578-8bde204c9147">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Diego_DIEGO-PC 2012-11-26 18_21_45">
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Seguridad\bin\Debug\Seguridad.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\bin\Debug\Repositorio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Negocio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Debug\Dominio.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-26T18:21:45.3191090-03:00" queuing="2012-11-26T18:21:46.7421904-03:00" start="2012-11-26T18:21:46.9562026-03:00" finish="2012-11-26T18:22:55.0230958-03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DIEGO-PC" outcome="Error" timestamp="2012-11-26T18:22:55.0180955-03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="obtenerArticulosFrecuentesTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\debug\tests.dll" id="48945e0f-871f-2510-b1ef-49518a731b66">
+      <Execution id="30081b38-2cea-49ea-9e3a-7edd57ccb9cd" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ArticuloRepositorioTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="obtenerArticulosFrecuentesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="48945e0f-871f-2510-b1ef-49518a731b66" executionId="30081b38-2cea-49ea-9e3a-7edd57ccb9cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="30081b38-2cea-49ea-9e3a-7edd57ccb9cd" testId="48945e0f-871f-2510-b1ef-49518a731b66" testName="obtenerArticulosFrecuentesTest" computerName="DIEGO-PC" duration="00:01:07.8578812" startTime="2012-11-26T18:21:47.1652146-03:00" endTime="2012-11-26T18:22:55.0230958-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30081b38-2cea-49ea-9e3a-7edd57ccb9cd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

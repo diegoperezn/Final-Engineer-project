@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dc65e00e-fcf6-40bd-88c9-9510fc2f056b" name="Diego@DIEGO-PC 2012-11-19 01:11:32" runUser="Diego-PC\Diego" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef2db5f0-3f45-4aad-a578-8bde204c9147">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Diego_DIEGO-PC 2012-11-19 01_11_32">
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Release\Dominio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Release\Negocio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\bin\Release\Repositorio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Seguridad\bin\Release\Seguridad.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-19T01:11:32.7479447-03:00" queuing="2012-11-19T01:11:32.7829467-03:00" start="2012-11-19T01:11:32.8179487-03:00" finish="2012-11-19T01:11:33.6179945-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="cargarMovimientosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="4f3a2e54-c06b-cfc2-386b-24b648fee82c">
+      <Execution id="1014226e-7fb0-49b4-b4d7-2a6aed2ab752" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MovimientoStockTDGTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cargarMovimientosTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4f3a2e54-c06b-cfc2-386b-24b648fee82c" executionId="1014226e-7fb0-49b4-b4d7-2a6aed2ab752" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1014226e-7fb0-49b4-b4d7-2a6aed2ab752" testId="4f3a2e54-c06b-cfc2-386b-24b648fee82c" testName="cargarMovimientosTest" computerName="DIEGO-PC" duration="00:00:00.1078002" startTime="2012-11-19T01:11:32.8239491-03:00" endTime="2012-11-19T01:11:33.2509735-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1014226e-7fb0-49b4-b4d7-2a6aed2ab752">
+      <Output>
+        <StdOut>Save/Update: select * from MovimientosStock
+Save/Update: DELETE MovimientosStock WHERE nro_movimiento=3  AND cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.MovimientoStockTDGTest.cargarMovimientosTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Tests.MovimientoStockTDGTest.cargarMovimientosTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestTDG\MovimientoStockTDGTest.vb:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3c292a2a-15ae-4ca2-b3e0-063f182885a5" name="Diego@DIEGO-PC 2012-11-19 01:10:17" runUser="Diego-PC\Diego" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef2db5f0-3f45-4aad-a578-8bde204c9147">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Diego_DIEGO-PC 2012-11-19 01_10_17">
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Release\Dominio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Release\Negocio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\bin\Release\Repositorio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Seguridad\bin\Release\Seguridad.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-19T01:10:17.6416489-03:00" queuing="2012-11-19T01:10:20.1827942-03:00" start="2012-11-19T01:10:20.3018010-03:00" finish="2012-11-19T01:10:21.3118588-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" error="0" failed="8" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="disminuirStockTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="0dd1a643-72f4-8fdd-aebf-659387fe0ecf">
+      <Execution id="5a9f4dd6-e4a5-4c74-a487-f9aaefacc46b" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.InsumoBusinessTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="disminuirStockTest" />
+    </UnitTest>
+    <UnitTest name="listarInsumosPorCodigoTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="75cbbdb7-6249-18c8-32b2-1920235c1d97">
+      <Execution id="276e3933-31eb-442a-abbe-0b31bd28fc33" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.InsumoBusinessTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="listarInsumosPorCodigoTest" />
+    </UnitTest>
+    <UnitTest name="grabarInsumoTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="67103975-0d80-6dc0-3e73-31c64db0977f">
+      <Execution id="15b2a6ed-cc5a-4a02-b51d-99442bb10749" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.InsumoBusinessTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="grabarInsumoTest" />
+    </UnitTest>
+    <UnitTest name="listarInsumosPorColorTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="8a0dd9bc-7acf-b95a-4187-a00b7726fa73">
+      <Execution id="ac3399c6-a30b-4ae7-80a3-a8223a0dd5f2" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.InsumoBusinessTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="listarInsumosPorColorTest" />
+    </UnitTest>
+    <UnitTest name="listarInsumosTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="e3b5610a-399f-d019-a8c3-fe5f24d0c8a6">
+      <Execution id="45d39285-929f-4a3b-bbc2-e2865e47f095" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.InsumoBusinessTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="listarInsumosTest" />
+    </UnitTest>
+    <UnitTest name="listarInsumosConRestriccionesTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="09863448-141d-d561-d286-b118ec566d97">
+      <Execution id="07d0012d-3027-4f58-8dc6-89c69d96d456" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.InsumoBusinessTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="listarInsumosConRestriccionesTest" />
+    </UnitTest>
+    <UnitTest name="listarInsumosPorTipoTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="2ae7b1af-8597-a3ce-277b-0dc18037e21f">
+      <Execution id="c3821b2b-9631-4f5c-827d-3e98b1628b4c" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.InsumoBusinessTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="listarInsumosPorTipoTest" />
+    </UnitTest>
+    <UnitTest name="actualizarInsumoTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\release\tests.dll" id="1a2eb27e-5a5f-d0a1-8888-804cc861f69e">
+      <Execution id="c65b66ad-f7fc-4de8-80ab-f91caf0994e2" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Release/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.InsumoBusinessTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="actualizarInsumoTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="09863448-141d-d561-d286-b118ec566d97" executionId="07d0012d-3027-4f58-8dc6-89c69d96d456" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0dd1a643-72f4-8fdd-aebf-659387fe0ecf" executionId="5a9f4dd6-e4a5-4c74-a487-f9aaefacc46b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a2eb27e-5a5f-d0a1-8888-804cc861f69e" executionId="c65b66ad-f7fc-4de8-80ab-f91caf0994e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ae7b1af-8597-a3ce-277b-0dc18037e21f" executionId="c3821b2b-9631-4f5c-827d-3e98b1628b4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67103975-0d80-6dc0-3e73-31c64db0977f" executionId="15b2a6ed-cc5a-4a02-b51d-99442bb10749" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75cbbdb7-6249-18c8-32b2-1920235c1d97" executionId="276e3933-31eb-442a-abbe-0b31bd28fc33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a0dd9bc-7acf-b95a-4187-a00b7726fa73" executionId="ac3399c6-a30b-4ae7-80a3-a8223a0dd5f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3b5610a-399f-d019-a8c3-fe5f24d0c8a6" executionId="45d39285-929f-4a3b-bbc2-e2865e47f095" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="07d0012d-3027-4f58-8dc6-89c69d96d456" testId="09863448-141d-d561-d286-b118ec566d97" testName="listarInsumosConRestriccionesTest" computerName="DIEGO-PC" duration="00:00:00.3103222" startTime="2012-11-19T01:10:20.3188020-03:00" endTime="2012-11-19T01:10:20.9888403-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07d0012d-3027-4f58-8dc6-89c69d96d456">
+      <Output>
+        <StdOut>Save/Update: select * from insumo WHERE  insumo.nombre LIKE '%bre%'AND  insumo.detalle LIKE '%lle1%'AND  insumo.id_tipo_insumo=1  AND  insumo.color=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.InsumoBusinessTest.listarInsumosConRestriccionesTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+TestCleanup method Tests.InsumoBusinessTest.MyTestCleanup threw exception. System.ArgumentException: System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'..</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosConRestricciones(String nombre, String detalle, String idTipo, String idColor) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 67
+   at Tests.InsumoBusinessTest.listarInsumosConRestriccionesTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 138
+
+TestCleanup Stack Trace
+    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.MyTestCleanup() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a9f4dd6-e4a5-4c74-a487-f9aaefacc46b" testId="0dd1a643-72f4-8fdd-aebf-659387fe0ecf" testName="disminuirStockTest" computerName="DIEGO-PC" duration="00:00:00.0663642" startTime="2012-11-19T01:10:20.9988409-03:00" endTime="2012-11-19T01:10:21.0748452-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a9f4dd6-e4a5-4c74-a487-f9aaefacc46b">
+      <Output>
+        <StdOut>Save/Update: select * from Articulos WHERE  Articulos.cod_articulo=1  ; select * from lista_precios WHERE borrado = 0
+Save/Update: select * from lista_precios WHERE  lista_precios.cod_articulo=1  
+Save/Update: select * from TipoPrenda WHERE  TipoPrenda.tipo_prenda=1  
+Save/Update: select * from Diseño WHERE  Diseño.cod_diseño=1  ; select * from historico_estados_diseño WHERE borrado = 0
+Save/Update: select * from Diseño WHERE  Diseño.cod_diseño=1  ; select * from historico_estados_diseño WHERE borrado = 0
+Save/Update: select * from Cliente WHERE  Cliente.id_cliente=1  ; select * from cliente_movimientos; select * from Pedido WHERE borrado = 0; select * from Factura WHERE borrado = 0; select * from Diseño WHERE borrado = 0
+Save/Update: select * from Usuario WHERE  Usuario.usuarioID=1  ; select * from JoinUsuarioToFamilia; select * from JoinPatenteToUsuario
+Save/Update: select * from Diseño_insumos WHERE  Diseño_insumos.cod_diseño=1  
+Save/Update: select * from historico_estados_diseño WHERE  historico_estados_diseño.cod_diseño=1  
+Save/Update: select * from EstadoDiseños WHERE  EstadoDiseños.estado=2  
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.InsumoBusinessTest.disminuirStockTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+TestCleanup method Tests.InsumoBusinessTest.MyTestCleanup threw exception. System.ArgumentException: System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'..</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Negocio.InsumoBusiness.disminuirStock(Int64 idArticulo, Int32 cantidad) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\InsumoBusiness.vb:line 78
+   at Tests.InsumoBusinessTest.disminuirStockTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 236
+
+TestCleanup Stack Trace
+    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.MyTestCleanup() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c65b66ad-f7fc-4de8-80ab-f91caf0994e2" testId="1a2eb27e-5a5f-d0a1-8888-804cc861f69e" testName="actualizarInsumoTest" computerName="DIEGO-PC" duration="00:00:00.0448104" startTime="2012-11-19T01:10:21.0778454-03:00" endTime="2012-11-19T01:10:21.1308484-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c65b66ad-f7fc-4de8-80ab-f91caf0994e2">
+      <Output>
+        <StdOut>Save/Update: SELECT  ISNULL(MAX(cod_insumo + 1),1) from insumo
+Save/Update: INSERT INTO insumo (cod_insumo, nombre, id_tipo_insumo, color, detalle, costo, cantidadActual) VALUES (5 , 'test creacion', 1 , 1 , 'insumo repo test', 5, 100 ); 
+Save/Update: SELECT  ISNULL(MAX(nro_movimiento + 1),1) from MovimientosStock WHERE cod_insumo=5
+Save/Update: INSERT INTO MovimientosStock (nro_movimiento, cod_insumo, tipo, fecha, cantidad) VALUES (1 , 5 , 2 ,  CAST('19/11/2012 01:10:21.088'  AS DateTime), 100); 
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=5  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=5  
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.InsumoBusinessTest.actualizarInsumoTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+TestCleanup method Tests.InsumoBusinessTest.MyTestCleanup threw exception. System.ArgumentException: System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'..</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.actualizarInsumoTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 197
+
+TestCleanup Stack Trace
+    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.MyTestCleanup() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c3821b2b-9631-4f5c-827d-3e98b1628b4c" testId="2ae7b1af-8597-a3ce-277b-0dc18037e21f" testName="listarInsumosPorTipoTest" computerName="DIEGO-PC" duration="00:00:00.0106256" startTime="2012-11-19T01:10:21.1378488-03:00" endTime="2012-11-19T01:10:21.1558499-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3821b2b-9631-4f5c-827d-3e98b1628b4c">
+      <Output>
+        <StdOut>Save/Update: select * from insumo WHERE  insumo.id_tipo_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.InsumoBusinessTest.listarInsumosPorTipoTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+TestCleanup method Tests.InsumoBusinessTest.MyTestCleanup threw exception. System.ArgumentException: System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'..</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorTipo(TipoInsumo tipo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 91
+   at Tests.InsumoBusinessTest.listarInsumosPorTipoTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 91
+
+TestCleanup Stack Trace
+    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.MyTestCleanup() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="15b2a6ed-cc5a-4a02-b51d-99442bb10749" testId="67103975-0d80-6dc0-3e73-31c64db0977f" testName="grabarInsumoTest" computerName="DIEGO-PC" duration="00:00:00.0338410" startTime="2012-11-19T01:10:21.1598501-03:00" endTime="2012-11-19T01:10:21.2028526-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15b2a6ed-cc5a-4a02-b51d-99442bb10749">
+      <Output>
+        <StdOut>Save/Update: SELECT  ISNULL(MAX(cod_insumo + 1),1) from insumo
+Save/Update: INSERT INTO insumo (cod_insumo, nombre, id_tipo_insumo, color, detalle, costo, cantidadActual) VALUES (6 , 'test creacion', 1 , 1 , 'insumo repo test', 5, 100 ); 
+Save/Update: SELECT  ISNULL(MAX(nro_movimiento + 1),1) from MovimientosStock WHERE cod_insumo=6
+Save/Update: INSERT INTO MovimientosStock (nro_movimiento, cod_insumo, tipo, fecha, cantidad) VALUES (1 , 6 , 2 ,  CAST('19/11/2012 01:10:21.166'  AS DateTime), 100); 
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=5  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=5  
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.InsumoBusinessTest.grabarInsumoTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+TestCleanup method Tests.InsumoBusinessTest.MyTestCleanup threw exception. System.ArgumentException: System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'..</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.grabarInsumoTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 175
+
+TestCleanup Stack Trace
+    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.MyTestCleanup() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="276e3933-31eb-442a-abbe-0b31bd28fc33" testId="75cbbdb7-6249-18c8-32b2-1920235c1d97" testName="listarInsumosPorCodigoTest" computerName="DIEGO-PC" duration="00:00:00.0093353" startTime="2012-11-19T01:10:21.2078528-03:00" endTime="2012-11-19T01:10:21.2278540-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="276e3933-31eb-442a-abbe-0b31bd28fc33">
+      <Output>
+        <StdOut>Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.InsumoBusinessTest.listarInsumosPorCodigoTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+TestCleanup method Tests.InsumoBusinessTest.MyTestCleanup threw exception. System.ArgumentException: System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'..</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.listarInsumosPorCodigoTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 122
+
+TestCleanup Stack Trace
+    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.MyTestCleanup() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ac3399c6-a30b-4ae7-80a3-a8223a0dd5f2" testId="8a0dd9bc-7acf-b95a-4187-a00b7726fa73" testName="listarInsumosPorColorTest" computerName="DIEGO-PC" duration="00:00:00.0111777" startTime="2012-11-19T01:10:21.2318542-03:00" endTime="2012-11-19T01:10:21.2488552-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac3399c6-a30b-4ae7-80a3-a8223a0dd5f2">
+      <Output>
+        <StdOut>Save/Update: select * from insumo WHERE  insumo.color=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.InsumoBusinessTest.listarInsumosPorColorTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+TestCleanup method Tests.InsumoBusinessTest.MyTestCleanup threw exception. System.ArgumentException: System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'..</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorColor(Color color) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 104
+   at Tests.InsumoBusinessTest.listarInsumosPorColorTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 107
+
+TestCleanup Stack Trace
+    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.MyTestCleanup() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="45d39285-929f-4a3b-bbc2-e2865e47f095" testId="e3b5610a-399f-d019-a8c3-fe5f24d0c8a6" testName="listarInsumosTest" computerName="DIEGO-PC" duration="00:00:00.0100703" startTime="2012-11-19T01:10:21.2538555-03:00" endTime="2012-11-19T01:10:21.2708565-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45d39285-929f-4a3b-bbc2-e2865e47f095">
+      <Output>
+        <StdOut>Save/Update: select * from insumo
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1  
+Save/Update: select * from insumo WHERE  insumo.cod_insumo=1  
+Save/Update: select * from tipoInsumo WHERE  tipoInsumo.tipo_insumo=1  
+Save/Update: select * from color WHERE  color.codigo_color=1  
+Save/Update: select * from MovimientosStock WHERE  MovimientosStock.cod_insumo=1</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.InsumoBusinessTest.listarInsumosTest threw exception: 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+TestCleanup method Tests.InsumoBusinessTest.MyTestCleanup threw exception. System.ArgumentException: System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'..</Message>
+          <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumos() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 38
+   at Tests.InsumoBusinessTest.listarInsumosTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 155
+
+TestCleanup Stack Trace
+    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Repositorio.TableDataGateway.cargarPropiedad(Object&amp; objeto, Columna col, DataRow row, DataSet dataset) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 445
+   at Repositorio.TableDataGateway.crearObjetos(DataSet dataSet) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 225
+   at Repositorio.TableDataGateway.buscar(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Framework\TableDataGateway.vb:line 15
+   at Repositorio.MovimientoStockTDG.cargarMovimientos(List`1 criteria) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\TableDataGateway\MovimientoStockTDG.vb:line 40
+   at Repositorio.InsumoRepositorio.completarInsumo(Insumo insumo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 123
+   at Repositorio.InsumoRepositorio.listarInsumosPorCodigo(Int64 codigo) in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\Repositorios\InsumoRepositorio.vb:line 79
+   at Tests.InsumoBusinessTest.MyTestCleanup() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\TestBusiness\InsumoBusinessTest.vb:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

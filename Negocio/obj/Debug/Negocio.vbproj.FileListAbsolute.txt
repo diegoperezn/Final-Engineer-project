@@ -1,0 +1,57 @@
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Negocio.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Negocio.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Dominio.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Repositorio.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Seguridad.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Dominio.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Repositorio.pdb
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Repositorio.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Seguridad.pdb
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\bin\Debug\Seguridad.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\obj\Debug\Negocio.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\obj\Debug\Negocio.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Negocio.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Negocio.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Dominio.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Repositorio.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Seguridad.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Dominio.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Repositorio.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Repositorio.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Seguridad.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Seguridad.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\obj\Debug\Negocio.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\obj\Debug\Negocio.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Negocio.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Negocio.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Dominio.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Repositorio.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Seguridad.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Dominio.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Repositorio.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Repositorio.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Seguridad.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\bin\Debug\Seguridad.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\obj\Debug\Negocio.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\obj\Debug\Negocio.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Negocio\obj\Debug\Negocio.pdb

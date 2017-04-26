@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ff4b2bcd-11b2-41e4-8221-86aec047098f" name="Diego@DIEGO-PC 2012-11-26 18:26:17" runUser="Diego-PC\Diego" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef2db5f0-3f45-4aad-a578-8bde204c9147">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Diego_DIEGO-PC 2012-11-26 18_26_17">
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Seguridad\bin\Debug\Seguridad.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Repositorio\bin\Debug\Repositorio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Negocio\bin\Debug\Negocio.dll" />
+      <DeploymentItem filename="C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Debug\Dominio.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-26T18:26:17.8636976-03:00" queuing="2012-11-26T18:26:18.3327245-03:00" start="2012-11-26T18:26:18.4077287-03:00" finish="2012-11-26T18:26:20.7478626-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="obtenerArticulosFrecuentesTest" storage="c:\users\diego\documents\visual studio 2010\projects\uniprof\tests\bin\debug\tests.dll" id="48945e0f-871f-2510-b1ef-49518a731b66">
+      <Execution id="ae9cb325-5373-4616-8beb-52a9bcbc9a51" />
+      <TestMethod codeBase="C:/Users/Diego/Documents/Visual Studio 2010/Projects/Uniprof/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ArticuloRepositorioTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="obtenerArticulosFrecuentesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="48945e0f-871f-2510-b1ef-49518a731b66" executionId="ae9cb325-5373-4616-8beb-52a9bcbc9a51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ae9cb325-5373-4616-8beb-52a9bcbc9a51" testId="48945e0f-871f-2510-b1ef-49518a731b66" testName="obtenerArticulosFrecuentesTest" computerName="DIEGO-PC" duration="00:00:00.2728863" startTime="2012-11-26T18:26:18.4337302-03:00" endTime="2012-11-26T18:26:19.2057744-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae9cb325-5373-4616-8beb-52a9bcbc9a51">
+      <Output>
+        <StdOut>Save/Update: select top 3 pr.cod_articulo as idArticulo, SUM(pr.cantidad) as cantidad  from produccion pr, Pedido pe  where(pe.cod_pedido = pr.cod_pedido)  AND pe.id_cliente = 1 group by pr.cod_articulo  order by cantidad desc
+Save/Update: select * from Articulos WHERE  Articulos.cod_articulo=2  ; select * from lista_precios WHERE borrado = 0
+Save/Update: select * from lista_precios WHERE  lista_precios.cod_articulo=2  
+Save/Update: select * from TipoPrenda WHERE  TipoPrenda.tipo_prenda=2  
+Save/Update: select * from Diseño WHERE  Diseño.cod_diseño=2  ; select * from historico_estados_diseño WHERE borrado = 0
+Save/Update: select * from Articulos WHERE  Articulos.cod_articulo=3  ; select * from lista_precios WHERE borrado = 0
+Save/Update: select * from lista_precios WHERE  lista_precios.cod_articulo=3  
+Save/Update: select * from TipoPrenda WHERE  TipoPrenda.tipo_prenda=2  
+Save/Update: select * from Diseño WHERE  Diseño.cod_diseño=1  ; select * from historico_estados_diseño WHERE borrado = 0
+Save/Update: select * from Articulos WHERE  Articulos.cod_articulo=1  ; select * from lista_precios WHERE borrado = 0
+Save/Update: select * from lista_precios WHERE  lista_precios.cod_articulo=1  
+Save/Update: select * from TipoPrenda WHERE  TipoPrenda.tipo_prenda=1  
+Save/Update: select * from Diseño WHERE  Diseño.cod_diseño=1  ; select * from historico_estados_diseño WHERE borrado = 0
+Save/Update: select top 3 pr.cod_articulo as idArticulo, SUM(pr.cantidad) as cantidad  from produccion pr, Pedido pe  where(pe.cod_pedido = pr.cod_pedido)  AND pe.id_cliente = 2 group by pr.cod_articulo  order by cantidad desc
+Save/Update: select * from Articulos WHERE  Articulos.cod_articulo=6  ; select * from lista_precios WHERE borrado = 0
+Save/Update: select * from Articulos WHERE  Articulos.cod_articulo=5  ; select * from lista_precios WHERE borrado = 0
+Save/Update: DELETE lista_precios WHERE nro_lista=1  AND cod_articulo=4  
+Save/Update: DELETE lista_precios WHERE nro_lista=2  AND cod_articulo=4  
+Save/Update: DELETE Articulos WHERE cod_articulo=4</StdOut>
+        <ErrorInfo>
+          <Message>Test method Tests.ArticuloRepositorioTest.obtenerArticulosFrecuentesTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Tests.ArticuloRepositorioTest.obtenerArticulosFrecuentesTest() in C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\ArticuloRepositorioTest.vb:line 291
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

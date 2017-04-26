@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{C7519DF2-8A24-49B9-AA65-424F1A454FFB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Tests</RootNamespace>
+    <AssemblyName>Tests</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <ReferencePath>$(DevEnvDir)PublicAssemblies\</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Tests.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Tests.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TestTDG\EncuestaTDGTest.vb" />
+    <Compile Include="TestTDG\EstadoDiseñoTDGTest.vb" />
+    <Compile Include="TestBusiness\ProduccionBusinessTest.vb" />
+    <Compile Include="TestBusiness\InsumoBusinessTest.vb" />
+    <Compile Include="TestRepositorios\InsumoRepositorioTest.vb" />
+    <Compile Include="TestTDG\MovimientoStockTDGTest.vb" />
+    <Compile Include="TestBusiness\OrdenCompraBusinessTest.vb" />
+    <Compile Include="TestBusiness\FacturaBusinessTest.vb" />
+    <Compile Include="TestTDG\CuentaTDGTest.vb" />
+    <Compile Include="TestRepositorios\ProduccionRepositorioTest.vb" />
+    <Compile Include="TestRepositorios\FacturaRepositorioTest.vb" />
+    <Compile Include="TestRepositorios\OrdenCompraRepositorioTest.vb" />
+    <Compile Include="TestRepositorios\LineaOrdenCompraRepositorioTest.vb" />
+    <Compile Include="TestRepositorios\LineaFacturaRepostorioTest.vb" />
+    <Compile Include="TestBusiness\ArticuloBusinessTest.vb" />
+    <Compile Include="TestRepositorios\ArticuloRepositorioTest.vb" />
+    <Compile Include="TestBusiness\PedidoBusinessTest.vb" />
+    <Compile Include="TestRepositorios\PedidoRepositorioTest.vb" />
+    <Compile Include="TestTDG\EstadoTrabajoTDGTest.vb" />
+    <Compile Include="TestTDG\EstadoPedidoTDGTest.vb" />
+    <Compile Include="TestRepositorios\MovimientoCuentaProveedorRepositorioTest.vb" />
+    <Compile Include="TestBusiness\MovimientoProveedorBusinessTest.vb" />
+    <Compile Include="TestBusiness\ProveedorBusinessTest.vb" />
+    <Compile Include="TestRepositorios\ProveedorRepositorioTest.vb" />
+    <Compile Include="TestRepositorios\MaquinaRepositorioTest.vb" />
+    <Compile Include="TestBusiness\MaterialesBusinessTest.vb" />
+    <Compile Include="TestRepositorios\TipoPrendaRepositorioTest.vb" />
+    <Compile Include="TestTDG\DiseñoInsumoTDGTest.vb" />
+    <Compile Include="TestTDG\OperadorTDGTest.vb" />
+    <Compile Include="TestTDG\InsumoTDGTest.vb" />
+    <Compile Include="TestTDG\ListaPreciosTDGTest.vb" />
+    <Compile Include="TestTDG\ArticuloTDGTest.vb" />
+    <Compile Include="TestTDG\ColorTDGTest.vb" />
+    <Compile Include="TestTDG\FacturaTDGTest.vb" />
+    <Compile Include="TestTDG\LineaFacturaTDGTest.vb" />
+    <Compile Include="TestTDG\LineaOrdenDeCompraTDGTest.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TestTDG\OrdenDeCompraTDGTest.vb" />
+    <Compile Include="TestTDG\MaquinaTDGTest.vb" />
+    <Compile Include="TestTDG\MovimientoCuentaProveedorTDGTest.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TestTDG\HistoricoEstadosPedidoTDGTest.vb" />
+    <Compile Include="TestTDG\HistoricoEstadosProduccionTDGTest.vb" />
+    <Compile Include="TestTDG\PedidoTDGTest.vb" />
+    <Compile Include="TestTDG\ProduccionTDGTest.vb" />
+    <Compile Include="TestBusiness\ConversacionBusinessTest.vb" />
+    <Compile Include="TestBusiness\MovimientoClienteBusinessTest.vb" />
+    <Compile Include="TestRepositorios\MovimientoCuentaClienteRepositorioTest.vb" />
+    <Compile Include="TestTDG\ConversacionRepositorioTest.vb" />
+    <Compile Include="TestTDG\ConversacionTDGTest.vb" />
+    <Compile Include="TestBusiness\DiseñoBusinessTest.vb" />
+    <Compile Include="TestRepositorios\DiseñoRepositorioTest.vb" />
+    <Compile Include="TestTDG\DiseñoTDGTest.vb" />
+    <Compile Include="TestTDG\MovimientoCuentaClienteTDGTest.vb" />
+    <Compile Include="TestRepositorios\MensajeRepositorioTest.vb" />
+    <Compile Include="TestTDG\MensajeTDGTest.vb" />
+    <Compile Include="TestBusiness\NewsletterBusinessTest.vb" />
+    <Compile Include="TestRepositorios\NewsletterRepositorioTest.vb" />
+    <Compile Include="TestTDG\NewsletterTDGTest.vb" />
+    <Compile Include="TestRepositorios\ClienteRepositorioTest.vb" />
+    <Compile Include="TestTDG\ClienteTDGTest.vb" />
+    <Compile Include="TestBusiness\FamiliaBusinessTest.vb" />
+    <Compile Include="TestRepositorios\OpinionRepositorioTest.vb" />
+    <Compile Include="TestTDG\OpinionTDGTest.vb" />
+    <Compile Include="TestBusiness\PatenteBusinessTest.vb" />
+    <Compile Include="TestRepositorios\FamiliaRepositorioTest.vb" />
+    <Compile Include="TestRepositorios\PatenteRepositorioTest.vb" />
+    <Compile Include="TestTDG\DataAccesObjectTest.vb" />
+    <Compile Include="TestTDG\FamiliaTDGTest.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="TestTDG\PatenteTDGTest.vb" />
+    <Compile Include="TestTDG\ProduccionOperadorTDGTest.vb" />
+    <Compile Include="TestTDG\ProveedorTDGTest.vb" />
+    <Compile Include="TestTDG\TipoInsumoTDGTest.vb" />
+    <Compile Include="TestTDG\TipoMovimientoTDGTest.vb" />
+    <Compile Include="TestTDG\TipoPedidoTDGTest.vb" />
+    <Compile Include="TestTDG\TipoPrendaTDGTest.vb" />
+    <Compile Include="TestTDG\UsuarioTDGTest.vb" />
+    <Compile Include="TestBusiness\UsuarioBusinessTest.vb" />
+    <Compile Include="TestRepositorios\UsuarioRepositorioTest.vb" />
+    <Compile Include="TestBusiness\TipoPrendaBusinessTest.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.vbproj">
+      <Project>{33717010-277A-47E5-86CC-38320D3B9BB1}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.vbproj">
+      <Project>{AE15C83B-5218-48AD-86C9-8415E79BC94E}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repositorio\Repositorio.vbproj">
+      <Project>{5EEFF441-AEFF-4199-92F1-17881BDEEA94}</Project>
+      <Name>Repositorio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seguridad\Seguridad.vbproj">
+      <Project>{7F125761-8F7E-4C3D-B175-72A9BB73F4D3}</Project>
+      <Name>Seguridad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Shadow Include="Test References\Negocio.accessor" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

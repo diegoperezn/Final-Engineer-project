@@ -1,0 +1,69 @@
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Tests.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Tests.pdb
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Tests.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Dominio.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Negocio.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Repositorio.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Seguridad.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Dominio.pdb
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Dominio.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Negocio.pdb
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Negocio.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Repositorio.pdb
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Repositorio.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Seguridad.pdb
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\bin\Debug\Seguridad.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\obj\Debug\Tests.dll
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\obj\Debug\Tests.xml
+C:\Users\Diego\Google Drive\Trabajo Final Ingenieria\Proyecto\Uniprof\Tests\obj\Debug\Tests.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Tests.dll.config
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Tests.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Tests.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Tests.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Dominio.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Negocio.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Repositorio.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Seguridad.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Dominio.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Dominio.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Negocio.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Negocio.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Repositorio.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Repositorio.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Seguridad.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Seguridad.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Negocio_Accessor.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\bin\Debug\Negocio_Accessor.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\obj\Debug\Tests.Resources.resources
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\obj\Debug\Tests.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\obj\Debug\Tests.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Tests\obj\Debug\Tests.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Tests.dll.config
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Tests.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Tests.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Tests.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Dominio.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Negocio.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Repositorio.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Seguridad.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Dominio.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Dominio.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Negocio.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Negocio.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Repositorio.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Repositorio.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Seguridad.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Seguridad.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Negocio_Accessor.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\bin\Debug\Negocio_Accessor.pdb
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\obj\Debug\Tests.Resources.resources
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\obj\Debug\Tests.dll
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\obj\Debug\Tests.xml
+C:\Users\Diego\Google Drive\Facultad\Trabajo Final Ingenieria\Entrega Final 15.12\Uniprof 27.11\Uniprof\Tests\obj\Debug\Tests.pdb

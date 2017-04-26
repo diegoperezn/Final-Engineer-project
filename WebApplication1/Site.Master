@@ -1,0 +1,96 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="WebApplication1.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="Scripts/Validadores.js" type="text/javascript"></script>
+</head>
+
+<body>
+<form id="Form1" runat="server">
+<div id="daddy">
+	<div id="header">
+		<div id="logo">
+            <span id="logo-text">
+                <a href="./">Uniprof</a>
+            </span>
+        </div>
+		<div class="menu">
+            
+            <asp:Menu ID="mainMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                </Items>
+            </asp:Menu>
+
+		</div>
+		<div class="submenu menu">
+			
+            <asp:Menu ID="SubMenu"  CssClass="submenu menu" style="float:right " runat="server" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+            </asp:Menu>
+			
+		</div>
+		<div id="headerimage">
+			<div id="icons">
+				<a href="./" ><img src="images/icon_home.gif" alt="Home" width="13" height="13" id="home" /></a>
+				<a href="./"><img src="images/icon_sitemap.gif" alt="Sitemap" width="13" height="13" id="sitemap" /></a>
+				<a href="./"><img src="images/icon_contact.gif" alt="Contact" width="13" height="13" id="contact" /></a>			
+            </div>
+		</div>
+		
+	</div>
+	
+	<div id="content">
+		<div id="cA">
+			<div class="Ctopleft"></div>
+			<asp:Button class="submit" style="margin-left: 36%;margin-top: 4%;" ID="LogOut" runat="server" Text="Log out" />
+            <div>
+                <asp:LinkButton ID="idiomaEspañol" runat="server">Español</asp:LinkButton>&nbsp; 
+                <asp:LinkButton ID="idiomaIngles" runat="server">English</asp:LinkButton>&nbsp; 
+                <asp:Label ID="culturaLabel" runat="server" Text="Label"></asp:Label>
+            </div>
+			<asp:Login ID="Login" runat="server" Width="258px" 
+                CreateUserText="Create account" CreateUserUrl="~/AltaCliente.aspx" 
+                DisplayRememberMe="False">
+            </asp:Login>
+			<h3>Testimonios</h3>
+			<p class="testimonial"><img src="/images/imagen_testimonio1.jpg" alt="Skuola Screenshot Piece" width="87" height="100" class="leflo" /><asp:Label ID="testimonio1" runat="server" Text="<%$ Resources:home, testimonio1 %>" > </asp:Label></p>
+			<p class="testimonial"><img src="/images/imagen_testimonio2.jpg" alt="The Music Magazine Screenshot Piece" width="87" height="100" class="leflo" /><asp:Label ID="testimonio2" runat="server" Text="<%$ Resources:home, testimonio2 %>" ></asp:Label></p>
+            <asp:Panel ID="panelOpinion" class="contenedorOpinion" runat="server">
+                <div>
+                    <asp:Label ID="labelNombre" runat="server" Text="<%$ Resources:home, nombre %>"></asp:Label>
+                    <asp:TextBox ID="nombre" runat="server"></asp:TextBox>
+                 </div>
+                 <div>
+                    <asp:Label ID="labelMail" runat="server" Text="<%$ Resources:home, mail %>"></asp:Label>
+                    <asp:TextBox ID="mail" runat="server"></asp:TextBox>
+                </div>
+                <div>
+                    <asp:Label ID="labelOpinion" runat="server" Text="<%$ Resources:home, opinion %>"></asp:Label>
+                    <asp:TextBox ID="opinion" runat="server" Rows="6" TextMode="MultiLine"></asp:TextBox>
+                </div>
+                <asp:Button ID="grabarOpinion"  class="submit" runat="server" Text="<%$ Resources:labels, grabar %>" />
+
+            </asp:Panel>
+            </div>
+		<div id="cB">
+          <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+		</div>
+		<div class="Cpad">
+			<br class="clear" /><div class="Cbottomleft"></div><div class="Cbottom"></div><div class="Cbottomright"></div>
+		</div>
+	</div>
+	<div id="properspace"></div>
+</div>
+<div id="footer">
+	<div id="foot">
+		<div id="foot2"> <asp:Literal ID="Literal1" runat="server" Text="<%$ Resources:home, footer%>" />  Diego Perez </div>
+	</div>
+</div>
+ </form>
+</body>
+</html>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="altaNewsletter" xml:space="preserve">
+    <value>Click aqui para registrarse al newsletter de uniprof</value>
+  </data>
+  <data name="bajaNewsletter" xml:space="preserve">
+    <value>Click aqui para darse de baja al newsletter de uniprof</value>
+  </data>
+  <data name="caracteristica1" xml:space="preserve">
+    <value>Corte veloz y preciso sobre cualquier tipo de superficies textiles.</value>
+  </data>
+  <data name="caracteristica2" xml:space="preserve">
+    <value>Produce imágenes en bajo relieve sobre polar y superficies similares.</value>
+  </data>
+  <data name="caracteristica3" xml:space="preserve">
+    <value>Removiendo el pigmento en las telas produce un grabado, especial para jeans y gabardina.</value>
+  </data>
+  <data name="caracteristica4" xml:space="preserve">
+    <value>Logra cortes de varias aplicaciones superpuestas.</value>
+  </data>
+  <data name="caracteristica5" xml:space="preserve">
+    <value>Logra calados removiendo la superficie del tejido mostrando la superficie por debajo en combinación con bordado.</value>
+  </data>
+  <data name="caracteristica6" xml:space="preserve">
+    <value>Cortes en alto nivel de detalle en escudos y parches.</value>
+  </data>
+  <data name="caracteristica7" xml:space="preserve">
+    <value>Corte veloz y preciso sobre cualquier tipo de superficies textiles.</value>
+  </data>
+  <data name="caracteristica8" xml:space="preserve">
+    <value>Produce imágenes en bajo relieve sobre polar y superficies similares.</value>
+  </data>
+  <data name="footer" xml:space="preserve">
+    <value>Copyright 2012, Uniprof. Diseñado por</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>mail</value>
+  </data>
+  <data name="nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="nosCaracterizamos" xml:space="preserve">
+    <value>Nos caracterizamos por</value>
+  </data>
+  <data name="opinion" xml:space="preserve">
+    <value>opinion</value>
+  </data>
+  <data name="pedidosFrecuentes" xml:space="preserve">
+    <value>Pedidos frecuentes</value>
+  </data>
+  <data name="sobre1" xml:space="preserve">
+    <value>Realizamos bordados para empresas de moda, de artículos de promoción, colegios, clubes y toda empresa que quiera desarrollar un bordado con su propio diseño o marca.</value>
+  </data>
+  <data name="sobre2" xml:space="preserve">
+    <value>Trabajamos sobre todo tipo de telas y texturas, prendas o productos en proceso de elaboración, diseños multicolor, apliques bordados, escudos, logos y gorras. Contamos con la maquinaria para desarrollar bordados para aplicar a sus diseños lentejuelas, mostacillas, canutillos y cordones.</value>
+  </data>
+  <data name="sobre3" xml:space="preserve">
+    <value>Incorporamos la última tecnología en corte laser aplicado al mundo del bordado. Permite realizar cortes muy exactos para el trabajo de aplicaciones en telas logrando diseños imposibles de realizar a mano.</value>
+  </data>
+  <data name="sobre4" xml:space="preserve">
+    <value>Realizamos bordados para empresas de moda, de artículos de promoción, colegios, clubes y toda empresa que quiera desarrollar un bordado con su propio diseño o marca.</value>
+  </data>
+  <data name="sobre5" xml:space="preserve">
+    <value>Trabajamos sobre todo tipo de telas y texturas, prendas o productos en proceso de elaboración, diseños multicolor, apliques bordados, escudos, logos y gorras. Contamos con la maquinaria para desarrollar bordados para aplicar a sus diseños lentejuelas, mostacillas, canutillos y cordones.</value>
+  </data>
+  <data name="sobreUniprof" xml:space="preserve">
+    <value>Sobre Uniprof</value>
+  </data>
+  <data name="testimonio1" xml:space="preserve">
+    <value>Ha llegado el envío esta misma tarde. Agradecerte de nuevo vuestra rapidez y correcta gestión. Un placer trabajar con vosotros.</value>
+  </data>
+  <data name="testimonio2" xml:space="preserve">
+    <value>Pedido recibido, los polos son geniales! Gracias por hacerlo todo tan bien y tan rápido. Contaremos con vosotros para más proyectos ;)</value>
+  </data>
+</root>

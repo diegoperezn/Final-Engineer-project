@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{5EEFF441-AEFF-4199-92F1-17881BDEEA94}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Repositorio</RootNamespace>
+    <AssemblyName>Repositorio</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Repositorio.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Repositorio.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Dominio" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Framework\Join.vb" />
+    <Compile Include="Repositorios\EncuestaRepositorio.vb" />
+    <Compile Include="Repositorios\InsumoRepositorio.vb" />
+    <Compile Include="Repositorios\LineaFacturaRepostorio.vb" />
+    <Compile Include="Repositorios\LineaOrdenCompraRepositorio.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Repositorios\OrdenCompraRepositorio.vb" />
+    <Compile Include="Repositorios\ArticuloRepositorio.vb" />
+    <Compile Include="Repositorios\FacturaRepositorio.vb" />
+    <Compile Include="Repositorios\MovimientoCuentaClienteRepositorio.vb" />
+    <Compile Include="Repositorios\ClienteRepositorio.vb" />
+    <Compile Include="Framework\DataAccesObject.vb" />
+    <Compile Include="Repositorios\ConversacionRepositorio.vb" />
+    <Compile Include="Repositorios\DiseñoRepositorio.vb" />
+    <Compile Include="Repositorios\FamiliaRepositorio.vb" />
+    <Compile Include="Repositorios\MaquinaRepositorio.vb" />
+    <Compile Include="Repositorios\MaterialesRepositorio.vb" />
+    <Compile Include="Repositorios\MensajeRepositorio.vb" />
+    <Compile Include="Repositorios\MovimientoCuentaProveedorRepositorio.vb" />
+    <Compile Include="Repositorios\NewsletterRepositorio.vb" />
+    <Compile Include="Repositorios\OpinionRepositorio.vb" />
+    <Compile Include="Repositorios\PatenteRepositorio.vb" />
+    <Compile Include="Repositorios\PedidoRepositorio.vb" />
+    <Compile Include="Repositorios\PermisoPetenteRepositorio.vb" />
+    <Compile Include="Repositorios\ProduccionRepositorio.vb" />
+    <Compile Include="Repositorios\ProveedorRepositorio.vb" />
+    <Compile Include="Repositorios\TipoPrendaRepositorio.vb" />
+    <Compile Include="Repositorios\UsuarioRepositorio.vb" />
+    <Compile Include="Framework\RepositorioFactory.vb" />
+    <Compile Include="Framework\Columna.vb" />
+    <Compile Include="Framework\Restriccion.vb" />
+    <Compile Include="Framework\TableDataGateway.vb" />
+    <Compile Include="TableDataGateway\ArticuloTDG.vb" />
+    <Compile Include="TableDataGateway\ClienteTDG.vb" />
+    <Compile Include="TableDataGateway\ColorTDG.vb" />
+    <Compile Include="TableDataGateway\ConversacionTDG.vb" />
+    <Compile Include="TableDataGateway\CuentaTDG.vb" />
+    <Compile Include="TableDataGateway\DiseñoInsumoTDG.vb" />
+    <Compile Include="TableDataGateway\DiseñoTDG.vb" />
+    <Compile Include="TableDataGateway\EncuestaTDG.vb" />
+    <Compile Include="TableDataGateway\EstadoDiseñoTDG.vb" />
+    <Compile Include="TableDataGateway\EstadoPedidoTDG.vb" />
+    <Compile Include="TableDataGateway\EstadoTrabajoTDG.vb" />
+    <Compile Include="TableDataGateway\FacturaTDG.vb" />
+    <Compile Include="TableDataGateway\FamiliaTDG.vb" />
+    <Compile Include="TableDataGateway\HistoricoEstadosDiseñoTDG.vb" />
+    <Compile Include="TableDataGateway\HistoricoEstadosPedidoTDG.vb" />
+    <Compile Include="TableDataGateway\HistoricoEstadosProduccionTDG.vb" />
+    <Compile Include="TableDataGateway\InsumoTDG.vb" />
+    <Compile Include="TableDataGateway\LineaFacturaTDG.vb" />
+    <Compile Include="TableDataGateway\LineaOrdenDeCompraTDG.vb" />
+    <Compile Include="TableDataGateway\ListaPreciosTDG.vb" />
+    <Compile Include="TableDataGateway\MaquinaTDG.vb" />
+    <Compile Include="TableDataGateway\MensajeTDG.vb" />
+    <Compile Include="TableDataGateway\MovimientoCuentaClienteTDG.vb" />
+    <Compile Include="TableDataGateway\MovimientoCuentaProveedorTDG.vb" />
+    <Compile Include="TableDataGateway\MovimientoStockTDG.vb" />
+    <Compile Include="TableDataGateway\NewsletterTDG.vb" />
+    <Compile Include="TableDataGateway\OperadorTDG.vb" />
+    <Compile Include="TableDataGateway\OpinionTDG.vb" />
+    <Compile Include="TableDataGateway\OrdenDeCompraTDG.vb" />
+    <Compile Include="TableDataGateway\PatenteTDG.vb" />
+    <Compile Include="TableDataGateway\PedidoTDG.vb" />
+    <Compile Include="TableDataGateway\ProduccionOperadorTDG.vb" />
+    <Compile Include="TableDataGateway\ProduccionTDG.vb" />
+    <Compile Include="TableDataGateway\ProveedorTDG.vb" />
+    <Compile Include="TableDataGateway\TipoInsumoTDG.vb" />
+    <Compile Include="TableDataGateway\TipoMovimientoTDG.vb" />
+    <Compile Include="TableDataGateway\TipoPedidoTDG.vb" />
+    <Compile Include="TableDataGateway\TipoPrendaTDG.vb" />
+    <Compile Include="TableDataGateway\UsuarioTDG.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.vbproj">
+      <Project>{33717010-277A-47E5-86CC-38320D3B9BB1}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

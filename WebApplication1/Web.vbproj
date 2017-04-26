@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{A1762B58-9898-41F9-BE4C-73A1DB15E11E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Dominio" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Negocio" />
+    <Import Include="Negocio.My" />
+    <Import Include="Negocio.My.Resources" />
+    <Import Include="Seguridad" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="AltaCliente.aspx" />
+    <Content Include="AltaModificacionArticulo.aspx" />
+    <Content Include="AltaModificacionDiseño.aspx" />
+    <Content Include="AltaModificacionConversacion.aspx" />
+    <Content Include="AltaModificacionFamilia.aspx" />
+    <Content Include="AltaModificacionInsumo.aspx" />
+    <Content Include="AltaModificacionPedido.aspx" />
+    <Content Include="AltaModificacionProveedor.aspx" />
+    <Content Include="AltaMovimientoCliente.aspx" />
+    <Content Include="AltaMovimientoProveedor.aspx" />
+    <Content Include="BusquedaArticulo.aspx" />
+    <Content Include="BusquedaConversacion.aspx" />
+    <Content Include="BusquedaFactura.aspx" />
+    <Content Include="BusquedaFamilia.aspx" />
+    <Content Include="BusquedaInsumo.aspx" />
+    <Content Include="BusquedaMovimientoCliente.aspx" />
+    <Content Include="BusquedaDiseño.aspx" />
+    <Content Include="BusquedaMovimientoProveedor.aspx" />
+    <Content Include="BusquedaNewsletter.aspx" />
+    <Content Include="BusquedaOpinion.aspx" />
+    <Content Include="BusquedaOrdenCompra.aspx" />
+    <Content Include="BusquedaPedido.aspx" />
+    <Content Include="BusquedaProduccion.aspx" />
+    <Content Include="BusquedaProveedor.aspx" />
+    <Content Include="BusquedaUsuario.aspx" />
+    <Content Include="DetalleArticulo.aspx" />
+    <Content Include="DetalleDiseño.aspx" />
+    <Content Include="DetalleEncuestas.aspx" />
+    <Content Include="DetalleFactura.aspx" />
+    <Content Include="DetalleFamilia.aspx" />
+    <Content Include="DetalleInsumo.aspx" />
+    <Content Include="DetalleMovimientoCliente.aspx" />
+    <Content Include="DetalleMovimientoProveedor.aspx" />
+    <Content Include="DetalleNewsletter.aspx" />
+    <Content Include="DetalleOpinion.aspx" />
+    <Content Include="DetalleOrdenCompra.aspx" />
+    <Content Include="DetallePedido.aspx" />
+    <Content Include="DetalleProduccion.aspx" />
+    <Content Include="DetalleProveedor.aspx" />
+    <Content Include="DetalleUsuario.aspx" />
+    <Content Include="EncuestaUI.aspx" />
+    <Content Include="ErrorPermisos.aspx" />
+    <Content Include="DetalleEstadistica.aspx" />
+    <Content Include="EstadoPedidosUI.aspx" />
+    <Content Include="images\bg_footer.gif" />
+    <Content Include="images\bg_general.gif" />
+    <Content Include="images\bg_header.jpg" />
+    <Content Include="images\bg_icon_lines.gif" />
+    <Content Include="images\bg_menu.gif" />
+    <Content Include="images\bg_menu_starter.gif" />
+    <Content Include="images\bg_page.gif" />
+    <Content Include="images\bg_search_field.gif" />
+    <Content Include="images\check.gif" />
+    <Content Include="images\corners_bottom.gif" />
+    <Content Include="images\corners_top.gif" />
+    <Content Include="images\descargar.png" />
+    <Content Include="images\diseños\diseño1.jpg" />
+    <Content Include="images\diseños\diseño2.jpg" />
+    <Content Include="images\eliminar.png" />
+    <Content Include="images\download.gif" />
+    <Content Include="images\editar.png" />
+    <Content Include="images\error.png" />
+    <Content Include="images\icon_contact.gif" />
+    <Content Include="images\icon_home.gif" />
+    <Content Include="images\icon_sitemap.gif" />
+    <Content Include="images\imagen_testimonio1.jpg" />
+    <Content Include="images\imagen_testimonio2.jpg" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\masDetalle.png" />
+    <Content Include="images\newsletter.jpg" />
+    <Content Include="AltaModificacionMaquina.aspx" />
+    <Content Include="BusquedaMaquina.aspx" />
+    <Content Include="DetalleMaquina.aspx" />
+    <Content Include="images\tilde.png" />
+    <Content Include="MensajePanel.ascx" />
+    <Content Include="Newsletters\Newsletter1.htm" />
+    <Content Include="AltaModificacionUsuario.aspx" />
+    <Content Include="Scripts\jHtmlArea-0.7.5-vsdoc.js" />
+    <Content Include="Scripts\jHtmlArea-0.7.5.js" />
+    <Content Include="Scripts\jHtmlArea-0.7.5.min-vsdoc.js" />
+    <Content Include="Scripts\jHtmlArea-0.7.5.min.js" />
+    <Content Include="Scripts\jHtmlArea.ColorPickerMenu-0.7.0.js" />
+    <Content Include="Scripts\jHtmlArea.ColorPickerMenu-0.7.0.min.js" />
+    <Content Include="Scripts\jquery-1.3.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.3.2.js" />
+    <Content Include="Scripts\jquery-1.3.2.min-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.3.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="Scripts\Validadores.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaCliente.aspx.designer.vb">
+      <DependentUpon>AltaCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaCliente.aspx.vb">
+      <DependentUpon>AltaCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaModificacionArticulo.aspx.designer.vb">
+      <DependentUpon>AltaModificacionArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionArticulo.aspx.vb">
+      <DependentUpon>AltaModificacionArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaModificacionDiseño.aspx.designer.vb">
+      <DependentUpon>AltaModificacionDiseño.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionDiseño.aspx.vb">
+      <DependentUpon>AltaModificacionDiseño.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaModificacionConversacion.aspx.designer.vb">
+      <DependentUpon>AltaModificacionConversacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionConversacion.aspx.vb">
+      <DependentUpon>AltaModificacionConversacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaModificacionFamilia.aspx.designer.vb">
+      <DependentUpon>AltaModificacionFamilia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionFamilia.aspx.vb">
+      <DependentUpon>AltaModificacionFamilia.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaModificacionInsumo.aspx.designer.vb">
+      <DependentUpon>AltaModificacionInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionInsumo.aspx.vb">
+      <DependentUpon>AltaModificacionInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaModificacionPedido.aspx.designer.vb">
+      <DependentUpon>AltaModificacionPedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionPedido.aspx.vb">
+      <DependentUpon>AltaModificacionPedido.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaModificacionProveedor.aspx.designer.vb">
+      <DependentUpon>AltaModificacionProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionProveedor.aspx.vb">
+      <DependentUpon>AltaModificacionProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaMovimientoCliente.aspx.designer.vb">
+      <DependentUpon>AltaMovimientoCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaMovimientoCliente.aspx.vb">
+      <DependentUpon>AltaMovimientoCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AltaMovimientoProveedor.aspx.designer.vb">
+      <DependentUpon>AltaMovimientoProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaMovimientoProveedor.aspx.vb">
+      <DependentUpon>AltaMovimientoProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_GlobalResources\Botones\botones.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>botones.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Botones\Botones.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Botones.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\configuracion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>configuracion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Facturas\labelsFactura.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsFactura.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Facturas\labelsFactura.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsFactura.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\home\home.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>home.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\home\home.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>home.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Insumos\labelsInsumo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsInsumo.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Insumos\labelsInsumo.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsInsumo.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labels.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labels.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Diseño\labelsDiseño.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsDiseño.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Diseño\labelsDiseño.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsDiseño.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Conversacion\labelsConversacion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsConversacion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Conversacion\labelsConversacion.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsConversacion.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Articulo\labelsArticulo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsArticulo.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Articulo\labelsArticulo.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsArticulo.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labelsFamilia.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsFamilia.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\labelsFamilia.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsFamilia.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OrdenCompra\labelsOrdenCompra.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsOrdenCompra.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OrdenCompra\labelsOrdenCompra.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsOrdenCompra.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Movimientos\labelsMovimientos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsMovimientos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Movimientos\labelsMovimientos.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsMovimientos.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Newsletter\labelsNewsletter.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsNewsletter.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Newsletter\labelsNewsletter.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsNewsletter.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Opiniones\labelsOpinion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsOpinion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Opiniones\labelsOpinion.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsOpinion.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Pedido\labelsPedido.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsPedido.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Pedido\labelsPedido.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsPedido.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Produccion\labelsProduccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsProduccion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Produccion\labelsProduccion.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsProduccion.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Proveedor\labelsProveedor.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsProveedor.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Proveedor\labelsProveedor.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsProveedor.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Usuarios\labelsUsuarios.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsUsuarios.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Usuarios\labelsUsuarios.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsUsuarios.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Maquina\labelsMaquina.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsMaquina.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Maquina\labelsMaquina.en.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>labelsMaquina.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaArticulo.aspx.designer.vb">
+      <DependentUpon>BusquedaArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaArticulo.aspx.vb">
+      <DependentUpon>BusquedaArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaConversacion.aspx.designer.vb">
+      <DependentUpon>BusquedaConversacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaConversacion.aspx.vb">
+      <DependentUpon>BusquedaConversacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaFactura.aspx.designer.vb">
+      <DependentUpon>BusquedaFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaFactura.aspx.vb">
+      <DependentUpon>BusquedaFactura.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaFamilia.aspx.designer.vb">
+      <DependentUpon>BusquedaFamilia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaFamilia.aspx.vb">
+      <DependentUpon>BusquedaFamilia.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaInsumo.aspx.designer.vb">
+      <DependentUpon>BusquedaInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaInsumo.aspx.vb">
+      <DependentUpon>BusquedaInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaMovimientoCliente.aspx.designer.vb">
+      <DependentUpon>BusquedaMovimientoCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaMovimientoCliente.aspx.vb">
+      <DependentUpon>BusquedaMovimientoCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaDiseño.aspx.designer.vb">
+      <DependentUpon>BusquedaDiseño.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaDiseño.aspx.vb">
+      <DependentUpon>BusquedaDiseño.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaMovimientoProveedor.aspx.designer.vb">
+      <DependentUpon>BusquedaMovimientoProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaMovimientoProveedor.aspx.vb">
+      <DependentUpon>BusquedaMovimientoProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaNewsletter.aspx.designer.vb">
+      <DependentUpon>BusquedaNewsletter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaNewsletter.aspx.vb">
+      <DependentUpon>BusquedaNewsletter.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaOpinion.aspx.designer.vb">
+      <DependentUpon>BusquedaOpinion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaOpinion.aspx.vb">
+      <DependentUpon>BusquedaOpinion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaOrdenCompra.aspx.designer.vb">
+      <DependentUpon>BusquedaOrdenCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaOrdenCompra.aspx.vb">
+      <DependentUpon>BusquedaOrdenCompra.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaPedido.aspx.designer.vb">
+      <DependentUpon>BusquedaPedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaPedido.aspx.vb">
+      <DependentUpon>BusquedaPedido.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaProduccion.aspx.designer.vb">
+      <DependentUpon>BusquedaProduccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaProduccion.aspx.vb">
+      <DependentUpon>BusquedaProduccion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaProveedor.aspx.designer.vb">
+      <DependentUpon>BusquedaProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaProveedor.aspx.vb">
+      <DependentUpon>BusquedaProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaUsuario.aspx.designer.vb">
+      <DependentUpon>BusquedaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaUsuario.aspx.vb">
+      <DependentUpon>BusquedaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleArticulo.aspx.designer.vb">
+      <DependentUpon>DetalleArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleArticulo.aspx.vb">
+      <DependentUpon>DetalleArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleDiseño.aspx.designer.vb">
+      <DependentUpon>DetalleDiseño.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleDiseño.aspx.vb">
+      <DependentUpon>DetalleDiseño.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetalleEncuestas.aspx.designer.vb">
+      <DependentUpon>DetalleEncuestas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleEncuestas.aspx.vb">
+      <DependentUpon>DetalleEncuestas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleFactura.aspx.designer.vb">
+      <DependentUpon>DetalleFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleFactura.aspx.vb">
+      <DependentUpon>DetalleFactura.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleFamilia.aspx.designer.vb">
+      <DependentUpon>DetalleFamilia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleFamilia.aspx.vb">
+      <DependentUpon>DetalleFamilia.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleInsumo.aspx.designer.vb">
+      <DependentUpon>DetalleInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleInsumo.aspx.vb">
+      <DependentUpon>DetalleInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleMovimientoCliente.aspx.designer.vb">
+      <DependentUpon>DetalleMovimientoCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleMovimientoCliente.aspx.vb">
+      <DependentUpon>DetalleMovimientoCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleMovimientoProveedor.aspx.designer.vb">
+      <DependentUpon>DetalleMovimientoProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleMovimientoProveedor.aspx.vb">
+      <DependentUpon>DetalleMovimientoProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleNewsletter.aspx.designer.vb">
+      <DependentUpon>DetalleNewsletter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleNewsletter.aspx.vb">
+      <DependentUpon>DetalleNewsletter.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleOpinion.aspx.designer.vb">
+      <DependentUpon>DetalleOpinion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleOpinion.aspx.vb">
+      <DependentUpon>DetalleOpinion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleOrdenCompra.aspx.designer.vb">
+      <DependentUpon>DetalleOrdenCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleOrdenCompra.aspx.vb">
+      <DependentUpon>DetalleOrdenCompra.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetallePedido.aspx.designer.vb">
+      <DependentUpon>DetallePedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetallePedido.aspx.vb">
+      <DependentUpon>DetallePedido.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleProduccion.aspx.designer.vb">
+      <DependentUpon>DetalleProduccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleProduccion.aspx.vb">
+      <DependentUpon>DetalleProduccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetalleProveedor.aspx.designer.vb">
+      <DependentUpon>DetalleProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleProveedor.aspx.vb">
+      <DependentUpon>DetalleProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleUsuario.aspx.designer.vb">
+      <DependentUpon>DetalleUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleUsuario.aspx.vb">
+      <DependentUpon>DetalleUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EncuestaUI.aspx.designer.vb">
+      <DependentUpon>EncuestaUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EncuestaUI.aspx.vb">
+      <DependentUpon>EncuestaUI.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPermisos.aspx.designer.vb">
+      <DependentUpon>ErrorPermisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPermisos.aspx.vb">
+      <DependentUpon>ErrorPermisos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleEstadistica.aspx.designer.vb">
+      <DependentUpon>DetalleEstadistica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleEstadistica.aspx.vb">
+      <DependentUpon>DetalleEstadistica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EstadoPedidosUI.aspx.designer.vb">
+      <DependentUpon>EstadoPedidosUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EstadoPedidosUI.aspx.vb">
+      <DependentUpon>EstadoPedidosUI.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionMaquina.aspx.designer.vb">
+      <DependentUpon>AltaModificacionMaquina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionMaquina.aspx.vb">
+      <DependentUpon>AltaModificacionMaquina.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaMaquina.aspx.designer.vb">
+      <DependentUpon>BusquedaMaquina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaMaquina.aspx.vb">
+      <DependentUpon>BusquedaMaquina.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetalleMaquina.aspx.designer.vb">
+      <DependentUpon>DetalleMaquina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleMaquina.aspx.vb">
+      <DependentUpon>DetalleMaquina.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MensajePanel.ascx.designer.vb">
+      <DependentUpon>MensajePanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MensajePanel.ascx.vb">
+      <DependentUpon>MensajePanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="AltaModificacionUsuario.aspx.designer.vb">
+      <DependentUpon>AltaModificacionUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltaModificacionUsuario.aspx.vb">
+      <DependentUpon>AltaModificacionUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\home\home.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>home.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\home\home.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>home.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Maquina\labelsMaquina.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsMaquina.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Maquina\labelsMaquina.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsMaquina.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labels.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labels.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Usuarios\labelsUsuarios.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsUsuarios.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Usuarios\labelsUsuarios.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsUsuarios.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Botones\botones.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>botones.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Botones\Botones.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Botones.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Opiniones\labelsOpinion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsOpinion.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Opiniones\labelsOpinion.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsOpinion.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Newsletter\labelsNewsletter.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsNewsletter.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Newsletter\labelsNewsletter.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsNewsletter.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Diseño\labelsDiseño.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsDiseño.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Diseño\labelsDiseño.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsDiseño.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Conversacion\labelsConversacion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsConversacion.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Conversacion\labelsConversacion.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsConversacion.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Movimientos\labelsMovimientos.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsMovimientos.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Movimientos\labelsMovimientos.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsMovimientos.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Facturas\labelsFactura.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsFactura.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Facturas\labelsFactura.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsFactura.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\OrdenCompra\labelsOrdenCompra.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsOrdenCompra.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\OrdenCompra\labelsOrdenCompra.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsOrdenCompra.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Proveedor\labelsProveedor.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsProveedor.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Proveedor\labelsProveedor.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsProveedor.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Insumos\labelsInsumo.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsInsumo.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Insumos\labelsInsumo.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsInsumo.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Pedido\labelsPedido.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsPedido.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Pedido\labelsPedido.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsPedido.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Articulo\labelsArticulo.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsArticulo.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Articulo\labelsArticulo.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsArticulo.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Produccion\labelsProduccion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsProduccion.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Produccion\labelsProduccion.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsProduccion.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labelsFamilia.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsFamilia.en.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\labelsFamilia.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>labelsFamilia.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\configuracion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>configuracion.Designer.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <None Include="images\Thumbs.db" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_LocalResources\" />
+    <Folder Include="images\clientes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.vbproj">
+      <Project>{33717010-277A-47E5-86CC-38320D3B9BB1}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.vbproj">
+      <Project>{AE15C83B-5218-48AD-86C9-8415E79BC94E}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seguridad\Seguridad.vbproj">
+      <Project>{7F125761-8F7E-4C3D-B175-72A9BB73F4D3}</Project>
+      <Name>Seguridad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53592</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Release\Dominio.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Release\Dominio.pdb
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\bin\Release\Dominio.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\obj\Release\Dominio.Resources.resources
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\obj\Release\Dominio.dll
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\obj\Release\Dominio.xml
+C:\Users\Diego\Documents\Visual Studio 2010\Projects\Uniprof\Dominio\obj\Release\Dominio.pdb

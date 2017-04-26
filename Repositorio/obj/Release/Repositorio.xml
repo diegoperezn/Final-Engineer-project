@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Repositorio
+</name>
+</assembly>
+<members>
+<member name="M:Repositorio.UsuarioRepositorio.grabarUsuario(Dominio.Usuario)">
+	<param name="usuario"></param>
+</member><member name="P:Repositorio.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Repositorio.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Repositorio.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Repositorio.DiseñoRepositorio.BuscarImagen(Dominio.Diseño)">
+	<param name="diseño"></param>
+</member><member name="M:Repositorio.DiseñoRepositorio.grabarDiseño(Dominio.Diseño@)">
+	<param name="diseño"></param>
+</member><member name="M:Repositorio.DataAccesObject.ejecutarConsulta(System.String)">
+	<param name="consulta"></param>
+</member><member name="M:Repositorio.DataAccesObject.saveOrUpdate(System.String)">
+	<param name="consulta"></param>
+</member><member name="M:Repositorio.DataAccesObject.consultarValor(System.String)">
+	<param name="consulta"></param>
+</member>
+</members>
+</doc>

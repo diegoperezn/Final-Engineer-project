@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Tests
+</name>
+</assembly>
+<members>
+<member name="P:Tests.OrdenCompraRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.OrdenCompraRepositorioTest.listarOrdenDeComprasPorMovimientoTest">
+	<summary>
+A test for listarOrdenDeComprasPorMovimiento
+</summary>
+</member><member name="M:Tests.OrdenCompraRepositorioTest.listarOrdenDeComprasPorIdTest">
+	<summary>
+A test for listarOrdenDeComprasPorId
+</summary>
+</member><member name="M:Tests.OrdenCompraRepositorioTest.listarOrdenDeComprasPorProveedorTest">
+	<summary>
+A test for listarOrdenDeComprasPorCliente
+</summary>
+</member><member name="M:Tests.OrdenCompraRepositorioTest.listarOrdenDeComprasTest">
+	<summary>
+A test for listarOrdenDeCompras
+</summary>
+</member><member name="M:Tests.OrdenCompraRepositorioTest.grabarOrdenDeCompraTest">
+	<summary>
+A test for grabarOrdenDeCompra
+</summary>
+</member><member name="M:Tests.OrdenCompraRepositorioTest.actualizaOrdenDeCompraTest">
+	<summary>
+A test for actualizaOrdenDeCompra
+</summary>
+</member><member name="T:Tests.OrdenCompraRepositorioTest">
+	<summary>
+This is a test class for OrdenCompraRepositorioTest and is intended
+to contain all OrdenCompraRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.DiseñoInsumoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.DiseñoInsumoTDGTest.buscarDiseñoInsumoTest">
+	<summary>
+A test for buscarDiseñoInsumo
+</summary>
+</member><member name="M:Tests.DiseñoInsumoTDGTest.buscarDiseñoInsumoConRestriccionesTest">
+	<summary>
+A test for buscarDiseñoInsumo
+</summary>
+</member><member name="M:Tests.DiseñoInsumoTDGTest.grabarDiseñoInsumoTest">
+	<summary>
+A test for buscarDiseñoInsumo
+</summary>
+</member><member name="M:Tests.DiseñoInsumoTDGTest.modificarDiseñoInsumoTest">
+	<summary>
+A test for buscarDiseñoInsumo
+</summary>
+</member><member name="M:Tests.DiseñoInsumoTDGTest.borrarDiseñoInsumoTest">
+	<summary>
+A test for buscarDiseñoInsumo
+</summary>
+</member><member name="T:Tests.DiseñoInsumoTDGTest">
+	<summary>
+This is a test class for DiseñoInsumoTDGTest and is intended
+to contain all DiseñoInsumoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.LineaOrdenDeCompraTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.LineaOrdenDeCompraTDGTest.cargarLineasFacturaTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="M:Tests.LineaOrdenDeCompraTDGTest.cargarLineasFacturaConRestriccionTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="M:Tests.LineaOrdenDeCompraTDGTest.grabarLineaTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="M:Tests.LineaOrdenDeCompraTDGTest.modificarLineaTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="M:Tests.LineaOrdenDeCompraTDGTest.borrarLineaTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="T:Tests.LineaOrdenDeCompraTDGTest">
+	<summary>
+This is a test class for LineaOrdenDeCompraTDGTest and is intended
+to contain all LineaOrdenDeCompraTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.NewsletterTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.NewsletterTDGTest.buscarNewsletterPorNombreTest">
+	<summary>
+A test for buscarPrendas
+</summary>
+</member><member name="M:Tests.NewsletterTDGTest.actualizarNewsletterTest">
+	<summary>
+A test for actualizarPrenda
+</summary>
+</member><member name="M:Tests.NewsletterTDGTest.grabarNewsletterTest">
+	<summary>
+A test for grabarTipoPrenda
+</summary>
+</member><member name="M:Tests.NewsletterTDGTest.borrarNewsletterTest">
+	<summary>
+A test for borrarUsuario
+</summary>
+</member><member name="T:Tests.NewsletterTDGTest">
+	<summary>
+This is a test class for NewsletterTDGTest and is intended
+to contain all NewsletterTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.ClienteRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:Tests.ClienteRepositorioTest">
+	<summary>
+This is a test class for ClienteRepositorioTest and is intended
+to contain all ClienteRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.OpinionTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:Tests.OpinionTDGTest">
+	<summary>
+This is a test class for OpinionTDGTest and is intended
+to contain all OpinionTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.CuentaTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.CuentaTDGTest.buscarTipoCuentasTest">
+	<summary>
+A test for buscarTipoPedidos
+</summary>
+</member><member name="M:Tests.CuentaTDGTest.buscarTipoCuentaPorIdTest">
+	<summary>
+A test for buscarTipoPedidos
+</summary>
+</member><member name="M:Tests.CuentaTDGTest.buscarTipoCuentaPorIdTest2">
+	<summary>
+A test for buscarTipoPedidos
+</summary>
+</member><member name="T:Tests.CuentaTDGTest">
+	<summary>
+This is a test class for CuentaTDGTest and is intended
+to contain all CuentaTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.PedidoBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.PedidoBusinessTest.actualizarPedidoTest">
+	<summary>
+A test for actualizarPedido
+</summary>
+</member><member name="M:Tests.PedidoBusinessTest.listarPedidosPorClienteTest">
+	<summary>
+A test for listarPedidosPorCliente
+</summary>
+</member><member name="M:Tests.PedidoBusinessTest.listarPedidosConRestriccionTest">
+	<summary>
+A test for listarPedidosConRestriccion
+</summary>
+</member><member name="M:Tests.PedidoBusinessTest.listarPedidosTest">
+	<summary>
+A test for listarPedidos
+</summary>
+</member><member name="M:Tests.PedidoBusinessTest.buscarPedidoPorCodigoTest">
+	<summary>
+A test for buscarPedidoPorCodigo
+</summary>
+</member><member name="M:Tests.PedidoBusinessTest.GuardarPedidoTest">
+	<summary>
+A test for GuardarPedido
+</summary>
+</member><member name="M:Tests.PedidoBusinessTest.GuardarPedidoTest1">
+	<summary>
+A test for GuardarPedido
+</summary>
+</member><member name="M:Tests.PedidoBusinessTest.CambiarEstadoPedidoTest">
+	<summary>
+A test for CambiarEstadpPedido
+</summary>
+</member><member name="T:Tests.PedidoBusinessTest">
+	<summary>
+This is a test class for PedidoBusinessTest and is intended
+to contain all PedidoBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.EstadoTrabajoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.EstadoTrabajoTDGTest.buscarEstadosTest">
+	<summary>
+A test for buscarEstados
+</summary>
+</member><member name="M:Tests.EstadoTrabajoTDGTest.buscarEstadosPorIdTest">
+	<summary>
+A test for buscarEstadosPorId
+</summary>
+</member><member name="T:Tests.EstadoTrabajoTDGTest">
+	<summary>
+This is a test class for EstadoTrabajoTDGTest and is intended
+to contain all EstadoTrabajoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.ProveedorRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ProveedorRepositorioTest.grabarTest">
+	<summary>
+A test for grabar
+</summary>
+</member><member name="M:Tests.ProveedorRepositorioTest.buscarProveedorPorCodigoTest">
+	<summary>
+A test for buscarProveedorPorCodigo
+</summary>
+</member><member name="M:Tests.ProveedorRepositorioTest.actualizarTest">
+	<summary>
+A test for actualizar
+</summary>
+</member><member name="M:Tests.ProveedorRepositorioTest.buscarProveedoresPorNombreTest">
+	<summary>
+A test for buscarProveedoresPorNombre
+</summary>
+</member><member name="M:Tests.ProveedorRepositorioTest.listarProveedoresTest">
+	<summary>
+A test for listarProveedores
+</summary>
+</member><member name="T:Tests.ProveedorRepositorioTest">
+	<summary>
+This is a test class for ProveedorRepositorioTest and is intended
+to contain all ProveedorRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.DataAccesObjectTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.DataAccesObjectTest.DataAccesObjectConstructorTest">
+	<summary>
+A test for DataAccesObject Constructor
+</summary>
+</member><member name="M:Tests.DataAccesObjectTest.ejecutarConsultaTest">
+	<summary>
+A test for ejecutarConsulta
+</summary>
+</member><member name="M:Tests.DataAccesObjectTest.saveTest">
+	<summary>
+A test for save a new row
+</summary>
+</member><member name="T:Tests.DataAccesObjectTest">
+	<summary>
+This is a test class for DataAccesObjectTest and is intended
+to contain all DataAccesObjectTest Unit Tests
+</summary>
+</member><member name="P:Tests.ProveedorTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:Tests.ProveedorTDGTest">
+	<summary>
+This is a test class for ProveedorTDGTest and is intended
+to contain all ProveedorTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.EncuestaTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.EncuestaTDGTest.buscarEncuestaTest">
+	<summary>
+A test for buscarEncuesta
+</summary>
+</member><member name="T:Tests.EncuestaTDGTest">
+	<summary>
+This is a test class for EncuestaTDGTest and is intended
+to contain all EncuestaTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.OperadorTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.OperadorTDGTest.buscarOperadoresTest">
+	<summary>
+A test for buscarOperadores
+</summary>
+</member><member name="T:Tests.OperadorTDGTest">
+	<summary>
+This is a test class for OperadorTDGTest and is intended
+to contain all OperadorTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.FacturaTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.FacturaTDGTest.cargarFacturasTest">
+	<summary>
+A test for cargarFacturas
+</summary>
+</member><member name="M:Tests.FacturaTDGTest.cargarFacturasConRestriccionesTest">
+	<summary>
+A test for cargarFacturas
+</summary>
+</member><member name="M:Tests.FacturaTDGTest.grabarFacturasTest">
+	<summary>
+A test for cargarFacturas
+</summary>
+</member><member name="M:Tests.FacturaTDGTest.modificarFacturasTest">
+	<summary>
+A test for cargarFacturas
+</summary>
+</member><member name="T:Tests.FacturaTDGTest">
+	<summary>
+This is a test class for FacturaTDGTest and is intended
+to contain all FacturaTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.HistoricoEstadosProduccionTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.HistoricoEstadosProduccionTDGTest.cargarHistoricoEstadosTest">
+	<summary>
+A test for cargarHistoricoEstados
+</summary>
+</member><member name="M:Tests.HistoricoEstadosProduccionTDGTest.modificarHistoricoEstadosTest">
+	<summary>
+A test for cargarHistoricoEstados
+</summary>
+</member><member name="M:Tests.HistoricoEstadosProduccionTDGTest.grabarHistoricoEstadosTest">
+	<summary>
+A test for cargarHistoricoEstados
+</summary>
+</member><member name="M:Tests.HistoricoEstadosProduccionTDGTest.borrarHistoricoEstadosTest">
+	<summary>
+A test for cargarHistoricoEstados
+</summary>
+</member><member name="T:Tests.HistoricoEstadosProduccionTDGTest">
+	<summary>
+This is a test class for HistoricoEstadosProduccionTDGTest and is intended
+to contain all HistoricoEstadosProduccionTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.ProduccionOperadorTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:Tests.ProduccionOperadorTDGTest">
+	<summary>
+This is a test class for ProduccionOperadorTDGTest and is intended
+to contain all ProduccionOperadorTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.EstadoDiseñoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.EstadoDiseñoTDGTest.buscarEstadosTest">
+	<summary>
+A test for buscarEstados
+</summary>
+</member><member name="M:Tests.EstadoDiseñoTDGTest.buscarEstadosPorIdTest">
+	<summary>
+A test for buscarEstadosPorId
+</summary>
+</member><member name="T:Tests.EstadoDiseñoTDGTest">
+	<summary>
+This is a test class for EstadoDiseñoTDGTest and is intended
+to contain all EstadoDiseñoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.FacturaBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.FacturaBusinessTest.listarFacturaPorMovimientoTest">
+	<summary>
+A test for listarFacturasPorMovimiento
+</summary>
+</member><member name="M:Tests.FacturaBusinessTest.listarFacturasPorClienteTest">
+	<summary>
+A test for listarFacturasPorCliente
+</summary>
+</member><member name="M:Tests.FacturaBusinessTest.listarFacturasTest">
+	<summary>
+A test for listarFacturas
+</summary>
+</member><member name="M:Tests.FacturaBusinessTest.listarFacturasPorIdTest">
+	<summary>
+A test for listarFacturasPorId
+</summary>
+</member><member name="M:Tests.FacturaBusinessTest.grabarFacturaTest">
+	<summary>
+A test for grabarFactura
+</summary>
+</member><member name="M:Tests.FacturaBusinessTest.actualizaFacturaTest">
+	<summary>
+A test for actualizaFactura
+</summary>
+</member><member name="T:Tests.FacturaBusinessTest">
+	<summary>
+This is a test class for FacturaBusinessTest and is intended
+to contain all FacturaBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.ProduccionRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ProduccionRepositorioTest.listarProduccionPorFechasTest">
+	<summary>
+A test for listarProduccionPorFechas
+</summary>
+</member><member name="M:Tests.ProduccionRepositorioTest.actualizarProduccionTest">
+	<summary>
+A test for actualizarProduccion
+</summary>
+</member><member name="M:Tests.ProduccionRepositorioTest.grabarProduccionTest">
+	<summary>
+A test for grabarProduccion
+</summary>
+</member><member name="M:Tests.ProduccionRepositorioTest.listarProduccionConRestriccionesTest">
+	<summary>
+A test for listarProduccionConRestricciones
+</summary>
+</member><member name="M:Tests.ProduccionRepositorioTest.listarProduccionPorArticuloTest">
+	<summary>
+A test for listarProduccionPorArticulo
+</summary>
+</member><member name="M:Tests.ProduccionRepositorioTest.listarProduccionPorEstadoTest">
+	<summary>
+A test for listarProduccionPorEstado
+</summary>
+</member><member name="M:Tests.ProduccionRepositorioTest.listarProduccionPorMaquinaTest">
+	<summary>
+A test for listarProduccionPorMaquina
+</summary>
+</member><member name="M:Tests.ProduccionRepositorioTest.listarProduccionPorPedidoTest">
+	<summary>
+A test for listarProduccionPorPedido
+</summary>
+</member><member name="M:Tests.ProduccionRepositorioTest.listarProduccionPorCodigoTest">
+	<summary>
+A test for listarProduccionPorCodigo
+</summary>
+</member><member name="T:Tests.ProduccionRepositorioTest">
+	<summary>
+This is a test class for ProduccionRepositorioTest and is intended
+to contain all ProduccionRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Tests.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Tests.My.Resources.Resources.conectionString">
+	<summary>
+  Looks up a localized string similar to Data Source=DIEGO-PC\SQLEXPRESS;Initial Catalog=uniprof_test;Integrated Security=True.
+</summary>
+</member><member name="P:Tests.My.Resources.Resources.prepararBase">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
+</member><member name="T:Tests.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Tests.HistoricoEstadosPedidoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.HistoricoEstadosPedidoTDGTest.cargarHistoricoEstadosTest">
+	<summary>
+A test for cargarHistoricoEstados
+</summary>
+</member><member name="M:Tests.HistoricoEstadosPedidoTDGTest.modificarHistoricoEstadosTest">
+	<summary>
+A test for cargarHistoricoEstados
+</summary>
+</member><member name="M:Tests.HistoricoEstadosPedidoTDGTest.grabarHistoricoEstadosTest">
+	<summary>
+A test for cargarHistoricoEstados
+</summary>
+</member><member name="M:Tests.HistoricoEstadosPedidoTDGTest.borrarHistoricoEstadosTest">
+	<summary>
+A test for cargarHistoricoEstados
+</summary>
+</member><member name="T:Tests.HistoricoEstadosPedidoTDGTest">
+	<summary>
+This is a test class for HistoricoEstadosPedidoTDGTest and is intended
+to contain all HistoricoEstadosPedidoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.MovimientoCuentaClienteRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteRepositorioTest.listarMovimientosTest">
+	<summary>
+A test for listarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteRepositorioTest.grabarMovimientoTest">
+	<summary>
+A test for grabarMovimiento
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteRepositorioTest.actualizarMovimientoTest">
+	<summary>
+A test for actualizarMovimiento
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteRepositorioTest.listarMovimientosPorClienteTest">
+	<summary>
+A test for listarMovimientosPorCliente
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteRepositorioTest.listarMovimientosPorNroTest">
+	<summary>
+A test for listarMovimientosPorNro
+</summary>
+</member><member name="T:Tests.MovimientoCuentaClienteRepositorioTest">
+	<summary>
+This is a test class for MovimientoCuentaClienteRepositorioTest and is intended
+to contain all MovimientoCuentaClienteRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.MovimientoCuentaClienteTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteTDGTest.cargarMovimientosTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteTDGTest.cargarMovimientosConRestriccionesTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteTDGTest.grabarMovimientosClienteTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteTDGTest.modificarMovimientosClienteTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaClienteTDGTest.borrarMovimientosClienteTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="T:Tests.MovimientoCuentaClienteTDGTest">
+	<summary>
+This is a test class for MovimientoCuentaClienteTDGTest and is intended
+to contain all MovimientoCuentaClienteTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.PatenteBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.PatenteBusinessTest.listaPatentesPorUsuarioTest">
+	<summary>
+A test for listaPatentesPorUsuario
+</summary>
+</member><member name="M:Tests.PatenteBusinessTest.listaPatentesPorFamiliaTest">
+	<summary>
+A test for listaPatentesPorFamilia
+</summary>
+</member><member name="M:Tests.PatenteBusinessTest.listaPatentesTest">
+	<summary>
+A test for listaPatentes
+</summary>
+</member><member name="T:Tests.PatenteBusinessTest">
+	<summary>
+This is a test class for PatenteBusinessTest and is intended
+to contain all PatenteBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.UsuarioBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.crearUsuarioTest">
+	<summary>
+A test for crearUsuario
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.modificarUsuarioTest">
+	<summary>
+A test for modificarUsuario
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.modificarUsuarioTest1">
+	<summary>
+A test for modificarUsuario
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.bloquearUsuarioTest">
+	<summary>
+A test for bloquearUsuario
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.listarUsuariosTest">
+	<summary>
+A test for listarUsuarios
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.actualizarClienteTest">
+	<summary>
+A test for actualizarCliente
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.borrarClienteTest">
+	<summary>
+A test for borrarCliente
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.grabarClienteTest">
+	<summary>
+A test for grabarCliente
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.buscarUsuarioNewsletterTest">
+	<summary>
+A test for buscarUsuarioNewsletter
+</summary>
+</member><member name="M:Tests.UsuarioBusinessTest.CargarClientesTest">
+	<summary>
+A test for CargarClientes
+</summary>
+</member><member name="T:Tests.UsuarioBusinessTest">
+	<summary>
+This is a test class for UsuarioBusinessTest and is intended
+to contain all UsuarioBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.LineaFacturaRepostorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.LineaFacturaRepostorioTest.cargarLineasPorFacturaTest">
+	<summary>
+A test for cargarLineasPorFactura
+</summary>
+</member><member name="T:Tests.LineaFacturaRepostorioTest">
+	<summary>
+This is a test class for LineaFacturaRepostorioTest and is intended
+to contain all LineaFacturaRepostorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.FamiliaTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:Tests.FamiliaTDGTest">
+	<summary>
+This is a test class for FamiliaTDGTest and is intended
+to contain all FamiliaTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.OrdenCompraBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.OrdenCompraBusinessTest.listarOrdenDeComprasPorMovimientoTest">
+	<summary>
+A test for listarOrdenDeComprasPorMovimiento
+</summary>
+</member><member name="M:Tests.OrdenCompraBusinessTest.listarOrdenDeComprasPorIdTest">
+	<summary>
+A test for listarOrdenDeComprasPorId
+</summary>
+</member><member name="M:Tests.OrdenCompraBusinessTest.listarOrdenDeComprasPorProveedorTest">
+	<summary>
+A test for listarOrdenDeComprasPorCliente
+</summary>
+</member><member name="M:Tests.OrdenCompraBusinessTest.listarOrdenDeComprasTest">
+	<summary>
+A test for listarOrdenDeCompras
+</summary>
+</member><member name="M:Tests.OrdenCompraBusinessTest.grabarOrdenDeCompraTest">
+	<summary>
+A test for grabarOrdenDeCompra
+</summary>
+</member><member name="M:Tests.OrdenCompraBusinessTest.actualizaOrdenDeCompraTest">
+	<summary>
+A test for actualizaOrdenDeCompra
+</summary>
+</member><member name="T:Tests.OrdenCompraBusinessTest">
+	<summary>
+This is a test class for OrdenCompraBusinessTest and is intended
+to contain all OrdenCompraBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.MaterialesBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MaterialesBusinessTest.modificarMaquinaTest">
+	<summary>
+A test for modificarMaquina
+</summary>
+</member><member name="M:Tests.MaterialesBusinessTest.actualizarMaquinaTest">
+	<summary>
+A test for actualizarMaquina
+</summary>
+</member><member name="M:Tests.MaterialesBusinessTest.listarMaquinasTest">
+	<summary>
+A test for listarMaquinas
+</summary>
+</member><member name="M:Tests.MaterialesBusinessTest.crearNuevaMaquinaTest">
+	<summary>
+A test for crearNuevaMaquina
+</summary>
+</member><member name="M:Tests.MaterialesBusinessTest.cargarMaquinaPorIdTest">
+	<summary>
+A test for cargarMaquinaPorId
+</summary>
+</member><member name="T:Tests.MaterialesBusinessTest">
+	<summary>
+This is a test class for MaterialesBusinessTest and is intended
+to contain all MaterialesBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.ColorTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ColorTDGTest.buscarColorTest">
+	<summary>
+A test for buscarColor
+</summary>
+</member><member name="M:Tests.ColorTDGTest.buscarColorConRestriccionesTest">
+	<summary>
+A test for buscarColor
+</summary>
+</member><member name="T:Tests.ColorTDGTest">
+	<summary>
+This is a test class for ColorTDGTest and is intended
+to contain all ColorTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.ConversacionTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:Tests.ConversacionTDGTest">
+	<summary>
+This is a test class for ConversacionTDGTest and is intended
+to contain all ConversacionTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.DiseñoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.DiseñoTDGTest.cargarDiseñosTest">
+	<summary>
+A test for cargarFamilias
+</summary>
+</member><member name="T:Tests.DiseñoTDGTest">
+	<summary>
+This is a test class for DiseñoTDGTest and is intended
+to contain all DiseñoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.FamiliaRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.FamiliaRepositorioTest.actualizarFamiliaTest">
+	<summary>
+A test for actualizarFamilia
+</summary>
+</member><member name="M:Tests.FamiliaRepositorioTest.borrarFamiliaTest">
+	<summary>
+A test for borrarFamilia
+</summary>
+</member><member name="M:Tests.FamiliaRepositorioTest.cargarFamiliasPorIdTest">
+	<summary>
+A test for cargarFamiliasPorId
+</summary>
+</member><member name="M:Tests.FamiliaRepositorioTest.cargarFamiliasPorUsuarioTest">
+	<summary>
+A test for cargarFamiliasPorUsuario
+</summary>
+</member><member name="M:Tests.FamiliaRepositorioTest.guardarFamiliaTest">
+	<summary>
+A test for guardarFamilia
+</summary>
+</member><member name="T:Tests.FamiliaRepositorioTest">
+	<summary>
+This is a test class for FamiliaRepositorioTest and is intended
+to contain all FamiliaRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.TipoPrendaTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.TipoPrendaTDGTest.buscarPrendasTest">
+	<summary>
+A test for buscarPrendas
+</summary>
+</member><member name="M:Tests.TipoPrendaTDGTest.buscarPrendasPorIDTest">
+	<summary>
+A test for buscarPrendas
+</summary>
+</member><member name="M:Tests.TipoPrendaTDGTest.buscarPrendasPorDescripcionTest">
+	<summary>
+A test for buscarPrendas
+</summary>
+</member><member name="M:Tests.TipoPrendaTDGTest.actualizarTipoPrendaTest">
+	<summary>
+A test for actualizarPrenda
+</summary>
+</member><member name="M:Tests.TipoPrendaTDGTest.grabarTipoPrendaTest">
+	<summary>
+A test for grabarTipoPrenda
+</summary>
+</member><member name="M:Tests.TipoPrendaTDGTest.borrarPrendaTest">
+	<summary>
+A test for borrarUsuario
+</summary>
+</member><member name="T:Tests.TipoPrendaTDGTest">
+	<summary>
+This is a test class for TipoPrendaTDGTest and is intended
+to contain all TipoPrendaTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.MovimientoCuentaProveedorRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorRepositorioTest.buscarMovimientoPorNroTest">
+	<summary>
+A test for buscarMovimientoPorNro
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorRepositorioTest.buscarMovimintosTest">
+	<summary>
+A test for buscarMovimintos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorRepositorioTest.actualizarMovimientoTest">
+	<summary>
+A test for actualizarMovimiento
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorRepositorioTest.grabarMovimientoTest">
+	<summary>
+A test for grabarMovimiento
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorRepositorioTest.listarMovimientosTest">
+	<summary>
+A test for listarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorRepositorioTest.listarMovimientosPorProveedorTest">
+	<summary>
+A test for listarMovimientosPorProveedor
+</summary>
+</member><member name="T:Tests.MovimientoCuentaProveedorRepositorioTest">
+	<summary>
+This is a test class for MovimientoCuentaProveedorRepositorioTest and is intended
+to contain all MovimientoCuentaProveedorRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.TipoPrendaRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.TipoPrendaRepositorioTest.actualizarTipoPrendaTest">
+	<summary>
+A test for actualizarTipoPrenda
+</summary>
+</member><member name="M:Tests.TipoPrendaRepositorioTest.grabarPrendaTest">
+	<summary>
+A test for grabarPrenda
+</summary>
+</member><member name="M:Tests.TipoPrendaRepositorioTest.ListarPrendasTest">
+	<summary>
+A test for ListarPrendas
+</summary>
+</member><member name="T:Tests.TipoPrendaRepositorioTest">
+	<summary>
+This is a test class for PrendaRepositorioTest and is intended
+to contain all PrendaRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.ArticuloTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ArticuloTDGTest.buscarArticulosTest">
+	<summary>
+A test for buscarArticulos
+</summary>
+</member><member name="M:Tests.ArticuloTDGTest.buscarArticulosConRestriccionesTest">
+	<summary>
+A test for buscarArticulos
+</summary>
+</member><member name="M:Tests.ArticuloTDGTest.grabarArticulosTest">
+	<summary>
+A test for buscarArticulos
+</summary>
+</member><member name="M:Tests.ArticuloTDGTest.modificarArticulosTest">
+	<summary>
+A test for buscarArticulos
+</summary>
+</member><member name="M:Tests.ArticuloTDGTest.borrarArticulosTest">
+	<summary>
+A test for buscarArticulos
+</summary>
+</member><member name="M:Tests.ArticuloTDGTest.obtenerIdsArticulosFrecuentesTest">
+	<summary>
+A test for obtenerIdsArticulosFrecuentes
+</summary>
+</member><member name="T:Tests.ArticuloTDGTest">
+	<summary>
+This is a test class for ArticuloTDGTest and is intended
+to contain all ArticuloTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.ConversacionRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:Tests.ConversacionRepositorioTest">
+	<summary>
+This is a test class for ConversacionRepositorioTest and is intended
+to contain all ConversacionRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.MensajeTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:Tests.MensajeTDGTest">
+	<summary>
+This is a test class for MensajeTDGTest and is intended
+to contain all MensajeTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.ClienteTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ClienteTDGTest.actualizarUsuarioTest">
+	<summary>
+A test for actualizarUsuario
+</summary>
+</member><member name="T:Tests.ClienteTDGTest">
+	<summary>
+This is a test class for ClienteTDGTest and is intended
+to contain all ClienteTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.MovimientoStockTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MovimientoStockTDGTest.cargarMovimientosTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="T:Tests.MovimientoStockTDGTest">
+	<summary>
+This is a test class for MovimientoStockTDGTest and is intended
+to contain all MovimientoStockTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.MovimientoCuentaProveedorTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorTDGTest.cargarMovimientosTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorTDGTest.cargarMovimientosConRestriccionesTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorTDGTest.grabarMovimientosClienteTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorTDGTest.modificarMovimientosClienteTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoCuentaProveedorTDGTest.borrarMovimientosClienteTest">
+	<summary>
+A test for cargarMovimientos
+</summary>
+</member><member name="T:Tests.MovimientoCuentaProveedorTDGTest">
+	<summary>
+This is a test class for MovimientoCuentaProveedorTDGTest and is intended
+to contain all MovimientoCuentaProveedorTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.LineaOrdenCompraRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.LineaOrdenCompraRepositorioTest.cargarLineasPorOrdenDeCompraTest">
+	<summary>
+A test for cargarLineasPorOrdenDeCompra
+</summary>
+</member><member name="T:Tests.LineaOrdenCompraRepositorioTest">
+	<summary>
+This is a test class for LineaOrdenCompraRepositorioTest and is intended
+to contain all LineaOrdenCompraRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.PedidoRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.PedidoRepositorioTest.actualizarPedidoTest">
+	<summary>
+A test for actualizarPedido
+</summary>
+</member><member name="M:Tests.PedidoRepositorioTest.grabarPedidoTest">
+	<summary>
+A test for grabarPedido
+</summary>
+</member><member name="M:Tests.PedidoRepositorioTest.listarPedidosTest">
+	<summary>
+A test for listarPedidos
+</summary>
+</member><member name="M:Tests.PedidoRepositorioTest.listarPedidosConRestriccionTest">
+	<summary>
+A test for listarPedidosConRestriccion
+</summary>
+</member><member name="M:Tests.PedidoRepositorioTest.listarPedidosPorClienteTest">
+	<summary>
+A test for listarPedidosPorCliente
+</summary>
+</member><member name="M:Tests.PedidoRepositorioTest.buscarPedidoPorCodigoTest">
+	<summary>
+A test for buscarPedidoPorCodigo
+</summary>
+</member><member name="T:Tests.PedidoRepositorioTest">
+	<summary>
+This is a test class for PedidoRepositorioTest and is intended
+to contain all PedidoRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.ConversacionBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ConversacionBusinessTest.grabarTest">
+	<summary>
+A test for grabar
+</summary>
+</member><member name="M:Tests.ConversacionBusinessTest.listarConversacionesPorIdTest">
+	<summary>
+A test for listarConversacionesPorId
+</summary>
+</member><member name="M:Tests.ConversacionBusinessTest.listarConversacionesPorUsuarioTest">
+	<summary>
+A test for listarConversacionesPorUsuario
+</summary>
+</member><member name="M:Tests.ConversacionBusinessTest.modificarTest">
+	<summary>
+A test for modificar
+</summary>
+</member><member name="T:Tests.ConversacionBusinessTest">
+	<summary>
+This is a test class for ConversacionBusinessTest and is intended
+to contain all ConversacionBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.MensajeRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MensajeRepositorioTest.grabarTest">
+	<summary>
+A test for grabar
+</summary>
+</member><member name="M:Tests.MensajeRepositorioTest.modificarTest">
+	<summary>
+A test for modificar
+</summary>
+</member><member name="M:Tests.MensajeRepositorioTest.borrarTest">
+	<summary>
+A test for borrar
+</summary>
+</member><member name="M:Tests.MensajeRepositorioTest.listarMensajesTest">
+	<summary>
+A test for listarMensajes
+</summary>
+</member><member name="T:Tests.MensajeRepositorioTest">
+	<summary>
+This is a test class for MensajeRepositorioTest and is intended
+to contain all MensajeRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.PatenteRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.PatenteRepositorioTest.cargarPatentesPorUsuarioTest">
+	<summary>
+A test for cargarPatentesPorUsuario
+</summary>
+</member><member name="M:Tests.PatenteRepositorioTest.cargarPatentesPorFamiliaTest">
+	<summary>
+A test for cargarPatentesPorFamilia
+</summary>
+</member><member name="M:Tests.PatenteRepositorioTest.cargarPatentesTest">
+	<summary>
+A test for cargarPatentes
+</summary>
+</member><member name="T:Tests.PatenteRepositorioTest">
+	<summary>
+This is a test class for PatenteRepositorioTest and is intended
+to contain all PatenteRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.EstadoPedidoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.EstadoPedidoTDGTest.buscarEstadosTest">
+	<summary>
+A test for buscarEstados
+</summary>
+</member><member name="M:Tests.EstadoPedidoTDGTest.buscarEstadosPorIdTest">
+	<summary>
+A test for buscarEstadosPorId
+</summary>
+</member><member name="T:Tests.EstadoPedidoTDGTest">
+	<summary>
+This is a test class for EstadoPedidoTDGTest and is intended
+to contain all EstadoPedidoTDGTest Unit Tests
+</summary>
+</member><member name="T:Tests.NewsletterBusinessTest">
+	<summary>
+This is a test class for NewsletterBusinessTest and is intended
+to contain all NewsletterBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.ProduccionBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.listarProduccionPorFechasTest">
+	<summary>
+A test for listarProduccionPorFechas
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.actualizarProduccionTest">
+	<summary>
+A test for actualizarProduccion
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.grabarProduccionTest">
+	<summary>
+A test for grabarProduccion
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.listarProduccionConRestriccionesTest">
+	<summary>
+A test for listarProduccionConRestricciones
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.listarProduccionPorArticuloTest">
+	<summary>
+A test for listarProduccionPorArticulo
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.listarProduccionPorEstadoTest">
+	<summary>
+A test for listarProduccionPorEstado
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.listarProduccionPorMaquinaTest">
+	<summary>
+A test for listarProduccionPorMaquina
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.listarProduccionPorPedidoTest">
+	<summary>
+A test for listarProduccionPorPedido
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.listarProduccionPorCodigoTest">
+	<summary>
+A test for listarProduccionPorCodigo
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularDistanciaEntreTrabajosTest1">
+	<summary>
+A test for calcularDistanciaEntreTrabajos
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularDistanciaEntreTrabajosTest2">
+	<summary>
+A test for calcularDistanciaEntreTrabajos
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularDistanciaEntreTrabajosTest3">
+	<summary>
+A test for calcularDistanciaEntreTrabajos
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularDistanciaEntreTrabajosTest4">
+	<summary>
+A test for calcularDistanciaEntreTrabajos
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularTimepoTrabajoTest">
+	<summary>
+A test for calcularTimepoTrabajo
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularTimepoTrabajoTest2">
+	<summary>
+A test for calcularTimepoTrabajo
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularTimepoTrabajoTest3">
+	<summary>
+A test for calcularTimepoTrabajo
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularTimepoTrabajoTest4">
+	<summary>
+A test for calcularTimepoTrabajo
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularFinalizacionTest">
+	<summary>
+A test for calcularFinalizacion
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularFinalizacionTest2">
+	<summary>
+A test for calcularFinalizacion
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularFinalizacionTest3">
+	<summary>
+A test for calcularFinalizacion
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularFinalizacionTest4">
+	<summary>
+A test for calcularFinalizacion
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.buscarPrimerosHuecosMaquinaTest">
+	<summary>
+A test for buscarPrimerosHuecosMaquina
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.buscarPrimerosHuecosMaquinaTest2">
+	<summary>
+A test for buscarPrimerosHuecosMaquina
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.buscarPrimerosHuecosMaquinaTest3">
+	<summary>
+A test for buscarPrimerosHuecosMaquina
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.buscarPrimerosHuecosMaquinaTest4">
+	<summary>
+A test for buscarPrimerosHuecosMaquina
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.buscarPrimerosHuecosMaquinaTest5">
+	<summary>
+A test for buscarPrimerosHuecosMaquina
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularPosiblesFechasTest">
+	<summary>
+A test for calcularPosiblesFechas
+</summary>
+</member><member name="M:Tests.ProduccionBusinessTest.calcularPosiblesFechasTest2">
+	<summary>
+A test for calcularPosiblesFechas
+</summary>
+</member><member name="T:Tests.ProduccionBusinessTest">
+	<summary>
+This is a test class for ProduccionBusinessTest and is intended
+to contain all ProduccionBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.InsumoRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.InsumoRepositorioTest.listarInsumosPorTipoTest">
+	<summary>
+A test for listarInsumosPorTipo
+</summary>
+</member><member name="M:Tests.InsumoRepositorioTest.listarInsumosPorColorTest">
+	<summary>
+A test for listarInsumosPorColor
+</summary>
+</member><member name="M:Tests.InsumoRepositorioTest.listarInsumosPorCodigoTest">
+	<summary>
+A test for listarInsumosPorCodigo
+</summary>
+</member><member name="M:Tests.InsumoRepositorioTest.listarInsumosConRestriccionesTest">
+	<summary>
+A test for listarInsumosConRestricciones
+</summary>
+</member><member name="M:Tests.InsumoRepositorioTest.listarInsumosTest">
+	<summary>
+A test for listarInsumos
+</summary>
+</member><member name="M:Tests.InsumoRepositorioTest.grabarInsumoTest">
+	<summary>
+A test for grabarInsumo
+</summary>
+</member><member name="M:Tests.InsumoRepositorioTest.actualizarInsumoTest">
+	<summary>
+A test for actualizarInsumo
+</summary>
+</member><member name="T:Tests.InsumoRepositorioTest">
+	<summary>
+This is a test class for InsumoRepositorioTest and is intended
+to contain all InsumoRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.InsumoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.InsumoTDGTest.buscarInsumosTest">
+	<summary>
+A test for buscarInsumos
+</summary>
+</member><member name="M:Tests.InsumoTDGTest.buscarInsumosConRestriccionesTest">
+	<summary>
+A test for buscarInsumos
+</summary>
+</member><member name="M:Tests.InsumoTDGTest.grabarInsumoTest">
+	<summary>
+A test for buscarInsumos
+</summary>
+</member><member name="M:Tests.InsumoTDGTest.modificarInsumoTest">
+	<summary>
+A test for buscarInsumos
+</summary>
+</member><member name="T:Tests.InsumoTDGTest">
+	<summary>
+This is a test class for InsumoTDGTest and is intended
+to contain all InsumoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.LineaFacturaTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.LineaFacturaTDGTest.cargarLineasFacturaTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="M:Tests.LineaFacturaTDGTest.cargarLineasFacturaConRestriccionTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="M:Tests.LineaFacturaTDGTest.grabarLineaTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="M:Tests.LineaFacturaTDGTest.modificarLineaTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="M:Tests.LineaFacturaTDGTest.borrarLineaTest">
+	<summary>
+A test for cargarLineasFactura
+</summary>
+</member><member name="T:Tests.LineaFacturaTDGTest">
+	<summary>
+This is a test class for LineaFacturaTDGTest and is intended
+to contain all LineaFacturaTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.MaquinaTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MaquinaTDGTest.cargarMaquinasTest">
+	<summary>
+A test for cargarMaquinas
+</summary>
+</member><member name="M:Tests.MaquinaTDGTest.cargarMaquinasConRestriccionesTest">
+	<summary>
+A test for cargarMaquinas
+</summary>
+</member><member name="M:Tests.MaquinaTDGTest.grabarMaquinasTest">
+	<summary>
+A test for cargarMaquinas
+</summary>
+</member><member name="M:Tests.MaquinaTDGTest.modificarMaquinasTest">
+	<summary>
+A test for cargarMaquinas
+</summary>
+</member><member name="M:Tests.MaquinaTDGTest.borrarMaquinasTest">
+	<summary>
+A test for cargarMaquinas
+</summary>
+</member><member name="T:Tests.MaquinaTDGTest">
+	<summary>
+This is a test class for MaquinaTDGTest and is intended
+to contain all MaquinaTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.TipoPrendaBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.TipoPrendaBusinessTest.actualizarTipoPrendaTest">
+	<summary>
+A test for actualizarTipoPrenda
+</summary>
+</member><member name="M:Tests.TipoPrendaBusinessTest.grabarPrendaTest">
+	<summary>
+A test for grabarPrenda
+</summary>
+</member><member name="M:Tests.TipoPrendaBusinessTest.ListarPrendasTest">
+	<summary>
+A test for ListarPrendas
+</summary>
+</member><member name="T:Tests.TipoPrendaBusinessTest">
+	<summary>
+This is a test class for TipoPrendaBusinessTest and is intended
+to contain all TipoPrendaBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.FacturaRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.FacturaRepositorioTest.listarFacturaPorMovimientoTest">
+	<summary>
+A test for listarFacturasPorMovimiento
+</summary>
+</member><member name="M:Tests.FacturaRepositorioTest.listarFacturasPorClienteTest">
+	<summary>
+A test for listarFacturasPorCliente
+</summary>
+</member><member name="M:Tests.FacturaRepositorioTest.listarFacturasTest">
+	<summary>
+A test for listarFacturas
+</summary>
+</member><member name="M:Tests.FacturaRepositorioTest.listarFacturasPorIdTest">
+	<summary>
+A test for listarFacturasPorId
+</summary>
+</member><member name="M:Tests.FacturaRepositorioTest.grabarFacturaTest">
+	<summary>
+A test for grabarFactura
+</summary>
+</member><member name="M:Tests.FacturaRepositorioTest.actualizaFacturaTest">
+	<summary>
+A test for actualizaFactura
+</summary>
+</member><member name="T:Tests.FacturaRepositorioTest">
+	<summary>
+This is a test class for FacturaRepositorioTest and is intended
+to contain all FacturaRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.ArticuloRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ArticuloRepositorioTest.guardarArticuloTest">
+	<summary>
+A test for guardarArticulo
+</summary>
+</member><member name="M:Tests.ArticuloRepositorioTest.listarArticulosPorDiseñoTest">
+	<summary>
+A test for listarArticulosPorDiseño
+</summary>
+</member><member name="M:Tests.ArticuloRepositorioTest.listarArticulosPorPrendaTest">
+	<summary>
+A test for listarArticulosPorPrenda
+</summary>
+</member><member name="M:Tests.ArticuloRepositorioTest.buscarArticulosPorCodigoTest">
+	<summary>
+A test for buscarArticulosPorCodigo
+</summary>
+</member><member name="M:Tests.ArticuloRepositorioTest.borrarArticuloTest">
+	<summary>
+A test for borrarArticulo
+</summary>
+</member><member name="M:Tests.ArticuloRepositorioTest.actualizaArticuloTest">
+	<summary>
+A test for actualizaArticulo
+</summary>
+</member><member name="M:Tests.ArticuloRepositorioTest.listarArticulosTest">
+	<summary>
+A test for listarArticulos
+</summary>
+</member><member name="M:Tests.ArticuloRepositorioTest.obtenerArticulosFrecuentesTest">
+	<summary>
+A test for obtenerArticulosFrecuentes
+</summary>
+</member><member name="T:Tests.ArticuloRepositorioTest">
+	<summary>
+This is a test class for ArticuloRepositorioTest and is intended
+to contain all ArticuloRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.MovimientoProveedorBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MovimientoProveedorBusinessTest.buscarMovimintosTest">
+	<summary>
+A test for buscarMovimintos
+</summary>
+</member><member name="M:Tests.MovimientoProveedorBusinessTest.buscarMovimientoPorNroTest">
+	<summary>
+A test for buscarMovimientoPorNro
+</summary>
+</member><member name="M:Tests.MovimientoProveedorBusinessTest.actualizarMovimientoTest">
+	<summary>
+A test for actualizarMovimiento
+</summary>
+</member><member name="M:Tests.MovimientoProveedorBusinessTest.grabarMovimientoTest">
+	<summary>
+A test for grabarMovimiento
+</summary>
+</member><member name="M:Tests.MovimientoProveedorBusinessTest.listarMovimientosTest">
+	<summary>
+A test for listarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoProveedorBusinessTest.listarMovimientosPorProveedorTest">
+	<summary>
+A test for listarMovimientosPorCliente
+</summary>
+</member><member name="T:Tests.MovimientoProveedorBusinessTest">
+	<summary>
+This is a test class for MovimientoProveedorBusinessTest and is intended
+to contain all MovimientoProveedorBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.PedidoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.PedidoTDGTest.cargarlistaPedidosTest">
+	<summary>
+A test for cargarlistaPedidos
+</summary>
+</member><member name="M:Tests.PedidoTDGTest.cargarPedidoPorRestriccionesTest">
+	<summary>
+A test for cargarlistaPedidos
+</summary>
+</member><member name="M:Tests.PedidoTDGTest.grabarNuevoPedidoTest">
+	<summary>
+A test for cargarlistaPedidos
+</summary>
+</member><member name="M:Tests.PedidoTDGTest.modificarNuevoPedidoTest">
+	<summary>
+A test for cargarlistaPedidos
+</summary>
+</member><member name="M:Tests.PedidoTDGTest.borrarPedidoTest">
+	<summary>
+A test for cargarlistaPedidos
+</summary>
+</member><member name="T:Tests.PedidoTDGTest">
+	<summary>
+This is a test class for PedidoTDGTest and is intended
+to contain all PedidoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.MovimientoClienteBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MovimientoClienteBusinessTest.listarMovimientosTest">
+	<summary>
+A test for listarMovimientos
+</summary>
+</member><member name="M:Tests.MovimientoClienteBusinessTest.grabarMovimientoTest">
+	<summary>
+A test for grabarMovimiento
+</summary>
+</member><member name="M:Tests.MovimientoClienteBusinessTest.actualizarMovimientoTest">
+	<summary>
+A test for actualizarMovimiento
+</summary>
+</member><member name="M:Tests.MovimientoClienteBusinessTest.listarMovimientosPorClienteTest">
+	<summary>
+A test for listarMovimientosPorCliente
+</summary>
+</member><member name="M:Tests.MovimientoClienteBusinessTest.listarMovimientosPorNroTest">
+	<summary>
+A test for listarMovimientosPorNro
+</summary>
+</member><member name="T:Tests.MovimientoClienteBusinessTest">
+	<summary>
+This is a test class for MovimientoClienteBusinessTest and is intended
+to contain all MovimientoClienteBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.NewsletterRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.NewsletterRepositorioTest.grabarNewsletterTest">
+	<summary>
+A test for grabarNewsletter
+</summary>
+</member><member name="M:Tests.NewsletterRepositorioTest.actualizarNewsletterTest">
+	<summary>
+A test for actualizarNewsletter
+</summary>
+</member><member name="M:Tests.NewsletterRepositorioTest.borrarNewsletterTest">
+	<summary>
+A test for borrarNewsletter
+</summary>
+</member><member name="M:Tests.NewsletterRepositorioTest.buscarNewsletterPorIdTest">
+	<summary>
+A test for buscarNewsletterPorId
+</summary>
+</member><member name="M:Tests.NewsletterRepositorioTest.buscarNewsletterPorNombreTest">
+	<summary>
+A test for buscarNewsletterPorNombre
+</summary>
+</member><member name="M:Tests.NewsletterRepositorioTest.listarNewsletterTest">
+	<summary>
+A test for listarNewsletter
+</summary>
+</member><member name="M:Tests.NewsletterRepositorioTest.buscarNewsletterParaEnviarTest">
+	<summary>
+A test for buscarNewsletterParaEnviar
+</summary>
+</member><member name="T:Tests.NewsletterRepositorioTest">
+	<summary>
+This is a test class for NewsletterRepositorioTest and is intended
+to contain all NewsletterRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.TipoMovimientoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.TipoMovimientoTDGTest.buscarTodoTest">
+	<summary>
+A test for buscarLista
+</summary>
+</member><member name="M:Tests.TipoMovimientoTDGTest.buscarPorIdTest">
+	<summary>
+A test for buscarLista
+</summary>
+</member><member name="M:Tests.TipoMovimientoTDGTest.buscarPorDescripcionTest">
+	<summary>
+A test for buscarLista
+</summary>
+</member><member name="T:Tests.TipoMovimientoTDGTest">
+	<summary>
+This is a test class for TipoMovimientoTDGTest and is intended
+to contain all TipoMovimientoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.InsumoBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.InsumoBusinessTest.listarInsumosPorTipoTest">
+	<summary>
+A test for listarInsumosPorTipo
+</summary>
+</member><member name="M:Tests.InsumoBusinessTest.listarInsumosPorColorTest">
+	<summary>
+A test for listarInsumosPorColor
+</summary>
+</member><member name="M:Tests.InsumoBusinessTest.listarInsumosPorCodigoTest">
+	<summary>
+A test for listarInsumosPorCodigo
+</summary>
+</member><member name="M:Tests.InsumoBusinessTest.listarInsumosConRestriccionesTest">
+	<summary>
+A test for listarInsumosConRestricciones
+</summary>
+</member><member name="M:Tests.InsumoBusinessTest.listarInsumosTest">
+	<summary>
+A test for listarInsumos
+</summary>
+</member><member name="M:Tests.InsumoBusinessTest.grabarInsumoTest">
+	<summary>
+A test for grabarInsumo
+</summary>
+</member><member name="M:Tests.InsumoBusinessTest.actualizarInsumoTest">
+	<summary>
+A test for actualizarInsumo
+</summary>
+</member><member name="M:Tests.InsumoBusinessTest.disminuirStockTest">
+	<summary>
+A test for disminuirStock
+</summary>
+</member><member name="T:Tests.InsumoBusinessTest">
+	<summary>
+This is a test class for InsumoBusinessTest and is intended
+to contain all InsumoBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.ListaPreciosTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ListaPreciosTDGTest.cargarListaPrecioTest">
+	<summary>
+A test for cargarListaPrecio
+</summary>
+</member><member name="M:Tests.ListaPreciosTDGTest.cargarListaPrecioConRestriccionesTest">
+	<summary>
+A test for cargarListaPrecio
+</summary>
+</member><member name="M:Tests.ListaPreciosTDGTest.grabarListaPrecioTest">
+	<summary>
+A test for cargarListaPrecio
+</summary>
+</member><member name="M:Tests.ListaPreciosTDGTest.modificarListaPrecioTest">
+	<summary>
+A test for cargarListaPrecio
+</summary>
+</member><member name="M:Tests.ListaPreciosTDGTest.borrarListaPrecioTest">
+	<summary>
+A test for cargarListaPrecio
+</summary>
+</member><member name="T:Tests.ListaPreciosTDGTest">
+	<summary>
+This is a test class for ListaPreciosTDGTest and is intended
+to contain all ListaPreciosTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.DiseñoRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.DiseñoRepositorioTest.BuscarDiseñosTest">
+	<summary>
+A test for BuscarDiseños
+</summary>
+</member><member name="M:Tests.DiseñoRepositorioTest.GrabarDiseñoTest">
+	<summary>
+A test for GrabarDiseño
+</summary>
+</member><member name="M:Tests.DiseñoRepositorioTest.buscarDiseñoPorClienteTest">
+	<summary>
+A test for buscarDiseñoPorCliente
+</summary>
+</member><member name="T:Tests.DiseñoRepositorioTest">
+	<summary>
+This is a test class for DiseñoRepositorioTest and is intended
+to contain all DiseñoRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.PatenteTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.PatenteTDGTest.cargarFamiliasTest">
+	<summary>
+A test for cargarFamilias
+</summary>
+</member><member name="T:Tests.PatenteTDGTest">
+	<summary>
+This is a test class for PatenteTDGTest and is intended
+to contain all PatenteTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.ArticuloBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ArticuloBusinessTest.guardarArticuloTest">
+	<summary>
+A test for guardarArticulo
+</summary>
+</member><member name="M:Tests.ArticuloBusinessTest.listarArticulosPorDiseñoTest">
+	<summary>
+A test for listarArticulosPorDiseño
+</summary>
+</member><member name="M:Tests.ArticuloBusinessTest.listarArticulosPorPrendaTest">
+	<summary>
+A test for listarArticulosPorPrenda
+</summary>
+</member><member name="M:Tests.ArticuloBusinessTest.buscarArticulosPorCodigoTest">
+	<summary>
+A test for buscarArticulosPorCodigo
+</summary>
+</member><member name="M:Tests.ArticuloBusinessTest.borrarArticuloTest">
+	<summary>
+A test for borrarArticulo
+</summary>
+</member><member name="M:Tests.ArticuloBusinessTest.actualizaArticuloTest">
+	<summary>
+A test for actualizaArticulo
+</summary>
+</member><member name="M:Tests.ArticuloBusinessTest.listarArticulosTest">
+	<summary>
+A test for listarArticulos
+</summary>
+</member><member name="T:Tests.ArticuloBusinessTest">
+	<summary>
+This is a test class for ArticuloBusinessTest and is intended
+to contain all ArticuloBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.FamiliaBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.FamiliaBusinessTest.actualizarFamiliaTest">
+	<summary>
+A test for actualizarFamilia
+</summary>
+</member><member name="M:Tests.FamiliaBusinessTest.actualizarFamiliaPorObjetoTest">
+	<summary>
+A test for actualizarFamilia
+</summary>
+</member><member name="M:Tests.FamiliaBusinessTest.borrarFamiliaTest">
+	<summary>
+A test for borrarFamilia
+</summary>
+</member><member name="M:Tests.FamiliaBusinessTest.cargarFamiliaTest">
+	<summary>
+A test for cargarFamilia
+</summary>
+</member><member name="M:Tests.FamiliaBusinessTest.cargarFamiliaPorIdTest">
+	<summary>
+A test for cargarFamiliaPorId
+</summary>
+</member><member name="M:Tests.FamiliaBusinessTest.guardarFamiliaTest">
+	<summary>
+A test for guardarFamilia
+</summary>
+</member><member name="M:Tests.FamiliaBusinessTest.listarFamliasTest">
+	<summary>
+A test for listarFamlias
+</summary>
+</member><member name="T:Tests.FamiliaBusinessTest">
+	<summary>
+This is a test class for FamiliaBusinessTest and is intended
+to contain all FamiliaBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.OpinionRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.OpinionRepositorioTest.listarOpinionesPorIdTest">
+	<summary>
+A test for listarOpinionesPorId
+</summary>
+</member><member name="M:Tests.OpinionRepositorioTest.listarOpinionesPorMailTest">
+	<summary>
+A test for listarOpinionesPorMail
+</summary>
+</member><member name="M:Tests.OpinionRepositorioTest.listarOpinionesTest">
+	<summary>
+A test for listarOpiniones
+</summary>
+</member><member name="M:Tests.OpinionRepositorioTest.grabarOpinionTest">
+	<summary>
+A test for grabarOpinion
+</summary>
+</member><member name="T:Tests.OpinionRepositorioTest">
+	<summary>
+This is a test class for OpinionRepositorioTest and is intended
+to contain all OpinionRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.ProveedorBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ProveedorBusinessTest.grabarTest">
+	<summary>
+A test for grabar
+</summary>
+</member><member name="M:Tests.ProveedorBusinessTest.buscarProveedorPorCodigoTest">
+	<summary>
+A test for buscarProveedorPorCodigo
+</summary>
+</member><member name="M:Tests.ProveedorBusinessTest.actualizarTest">
+	<summary>
+A test for actualizar
+</summary>
+</member><member name="M:Tests.ProveedorBusinessTest.buscarProveedoresPorNombreTest">
+	<summary>
+A test for buscarProveedoresPorNombre
+</summary>
+</member><member name="M:Tests.ProveedorBusinessTest.listarProveedoresTest">
+	<summary>
+A test for listarProveedores
+</summary>
+</member><member name="T:Tests.ProveedorBusinessTest">
+	<summary>
+This is a test class for ProveedorBusinessTest and is intended
+to contain all ProveedorBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.MaquinaRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.MaquinaRepositorioTest.cargarMaquinasAptasTest">
+	<summary>
+A test for cargarMaquinasAptas
+</summary>
+</member><member name="M:Tests.MaquinaRepositorioTest.actualizarMaquinaTest">
+	<summary>
+A test for actualizarMaquina
+</summary>
+</member><member name="M:Tests.MaquinaRepositorioTest.grabarMaquinaTest">
+	<summary>
+A test for grabarMaquina
+</summary>
+</member><member name="M:Tests.MaquinaRepositorioTest.listarMaquinasTest">
+	<summary>
+A test for listarMaquinas
+</summary>
+</member><member name="T:Tests.MaquinaRepositorioTest">
+	<summary>
+This is a test class for MaquinaRepositorioTest and is intended
+to contain all MaquinaRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.UsuarioRepositorioTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.UsuarioRepositorioTest.actualizarUsuarioTest">
+	<summary>
+A test for actualizarUsuario
+</summary>
+</member><member name="M:Tests.UsuarioRepositorioTest.grabarUsuarioTest">
+	<summary>
+A test for grabarUsuario
+</summary>
+</member><member name="M:Tests.UsuarioRepositorioTest.listarUsuariosTest">
+	<summary>
+A test for listarUsuarios
+</summary>
+</member><member name="T:Tests.UsuarioRepositorioTest">
+	<summary>
+This is a test class for UsuarioRepositorioTest and is intended
+to contain all UsuarioRepositorioTest Unit Tests
+</summary>
+</member><member name="P:Tests.OrdenDeCompraTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.OrdenDeCompraTDGTest.cargarOrdenesDeComprasTest">
+	<summary>
+A test for cargarOrdenesDeCompras
+</summary>
+</member><member name="M:Tests.OrdenDeCompraTDGTest.cargarOrdenConRestriccionesTest">
+	<summary>
+A test for cargarFacturas
+</summary>
+</member><member name="M:Tests.OrdenDeCompraTDGTest.grabarFacturasTest">
+	<summary>
+A test for cargarFacturas
+</summary>
+</member><member name="M:Tests.OrdenDeCompraTDGTest.modificarFacturasTest">
+	<summary>
+A test for cargarFacturas
+</summary>
+</member><member name="T:Tests.OrdenDeCompraTDGTest">
+	<summary>
+This is a test class for OrdenDeCompraTDGTest and is intended
+to contain all OrdenDeCompraTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.ProduccionTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.ProduccionTDGTest.cargarlistaProduccionTest">
+	<summary>
+A test for cargarlistaProduccion
+</summary>
+</member><member name="M:Tests.ProduccionTDGTest.cargarlistaProduccionConRestriccionesTest">
+	<summary>
+A test for cargarlistaProduccion
+</summary>
+</member><member name="M:Tests.ProduccionTDGTest.grabarProduccionTest">
+	<summary>
+A test for cargarlistaProduccion
+</summary>
+</member><member name="M:Tests.ProduccionTDGTest.modificarProduccionTest">
+	<summary>
+A test for cargarlistaProduccion
+</summary>
+</member><member name="M:Tests.ProduccionTDGTest.borrarProduccionTest">
+	<summary>
+A test for cargarlistaProduccion
+</summary>
+</member><member name="T:Tests.ProduccionTDGTest">
+	<summary>
+This is a test class for ProduccionTDGTest and is intended
+to contain all ProduccionTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.DiseñoBusinessTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.DiseñoBusinessTest.BuscarDiseñosTest">
+	<summary>
+A test for BuscarDiseños
+</summary>
+</member><member name="M:Tests.DiseñoBusinessTest.actualizarDiseñoTest">
+	<summary>
+A test for actualizarDiseño
+</summary>
+</member><member name="M:Tests.DiseñoBusinessTest.buscarDiseñoPorIdTest">
+	<summary>
+A test for buscarDiseñoPorId
+</summary>
+</member><member name="M:Tests.DiseñoBusinessTest.GrabarDiseñoTest">
+	<summary>
+A test for GrabarDiseño
+</summary>
+</member><member name="M:Tests.DiseñoBusinessTest.GrabarDiseñoTest1">
+	<summary>
+A test for GrabarDiseño
+</summary>
+</member><member name="M:Tests.DiseñoBusinessTest.buscarDiseñoPorClienteTest">
+	<summary>
+A test for buscarDiseñoPorCliente
+</summary>
+</member><member name="T:Tests.DiseñoBusinessTest">
+	<summary>
+This is a test class for DiseñoBusinessTest and is intended
+to contain all DiseñoBusinessTest Unit Tests
+</summary>
+</member><member name="P:Tests.TipoInsumoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:Tests.TipoInsumoTDGTest">
+	<summary>
+This is a test class for TipoInsumoTDGTest and is intended
+to contain all TipoInsumoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.TipoPedidoTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.TipoPedidoTDGTest.buscarTipoPedidosTest">
+	<summary>
+A test for buscarTipoPedidos
+</summary>
+</member><member name="M:Tests.TipoPedidoTDGTest.grabarTipoPedidosTest">
+	<summary>
+A test for buscarTipoPedidos
+</summary>
+</member><member name="M:Tests.TipoPedidoTDGTest.actualizarTipoPedidosTest">
+	<summary>
+A test for buscarTipoPedidos
+</summary>
+</member><member name="M:Tests.TipoPedidoTDGTest.borrarTipoPedidosTest">
+	<summary>
+A test for buscarTipoPedidos
+</summary>
+</member><member name="T:Tests.TipoPedidoTDGTest">
+	<summary>
+This is a test class for TipoPedidoTDGTest and is intended
+to contain all TipoPedidoTDGTest Unit Tests
+</summary>
+</member><member name="P:Tests.UsuarioTDGTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Tests.UsuarioTDGTest.actualizarUsuarioTest">
+	<summary>
+A test for actualizarUsuario
+</summary>
+</member><member name="M:Tests.UsuarioTDGTest.grabarUsuarioTest">
+	<summary>
+A test for grabarUsuario
+</summary>
+</member><member name="M:Tests.UsuarioTDGTest.borrarUsuarioTest">
+	<summary>
+A test for borrarUsuario
+</summary>
+</member><member name="T:Tests.UsuarioTDGTest">
+	<summary>
+This is a test class for UsuarioTDGTest and is intended
+to contain all UsuarioTDGTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

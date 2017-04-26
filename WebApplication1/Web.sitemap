@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Uniprof" >
+      <siteMapNode title="Home" url="~/default.aspx"/>
+      <siteMapNode title="Usuario" url="~/UsuarioUI.aspx"/>
+      <siteMapNode title="Familia" url="~/FamiliaUI.aspx"/>
+      <siteMapNode title="Busqueda Diseños" url="~/BusquedaDiseñosUI.aspx"/>
+      <siteMapNode title="Cuenta corriente" url="~/CuentaCorrienteUI.aspx"/>
+      <siteMapNode title="Estado Pedidos" url="~/EstadoPedidosUI.aspx"/>
+      <siteMapNode title="Compra materiales" url="~/CompraMaterialesUI.aspx"/>
+      <siteMapNode title="Administracion" url="~/Administracion.aspx"/>
+      <siteMapNode title="Mensajero" url="~/mensajeroUI.aspx"/>
+  </siteMapNode>
+</siteMap>
